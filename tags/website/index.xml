@@ -19,5 +19,16 @@
 Win-ACME win-acme is a good ACME client for Windows Server IIS.</description>
     </item>
     
+    <item>
+      <title>Develop Websites</title>
+      <link>https://suncodeearth.github.io/blog/post/2024-09-28-develop-websites/</link>
+      <pubDate>Sat, 28 Sep 2024 00:00:00 +0000</pubDate>
+      <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
+      <guid>https://suncodeearth.github.io/blog/post/2024-09-28-develop-websites/</guid>
+      <description>Develop Websites using RWith RStudio and Quarto, there are quite a few options to develop simple but neat websites. From the RStudio, New Project, we can create Quarto Website, Bookdown, blogdown, and Simple R Markdown websites. Particularly for Quarto Website, all the interactive capabilities allowed by OJS could be incorporated.
+The Quarto Website is based on a bootstrap template and has a simplistic appearance.
+Importantly, Quarto or R markdown can directly hold DIV, which can be used by many JavaScript libraries to plot charts, maps, or tables.</description>
+    </item>
+    
   </channel>
 </rss>
