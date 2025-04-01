@@ -14,8 +14,8 @@
       <pubDate>Thu, 13 Jun 2024 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
       <guid>https://suncodeearth.github.io/blog/post/2024-06-13-use-census-api-in-r-and-python/</guid>
-      <description>Access Census data in Python Since Census publicized its data access API to developers, many Python pacakges had been developed to take advantage of that. Currently, there is a very long list of Python packages that allow use to access census data via scripts.
- census (work best with package us) censusdis (census discovery) cenpy census-data-downloader (for ACS data) pygris (for tiger boundary files)   Access Census data in R There are also many packages in R that facilitate census data accsess.</description>
+      <description>Access Census data in PythonSince Census publicized its data access API to developers, many Python pacakges had been developed to take advantage of that. Currently, there is a very long list of Python packages that allow use to access census data via scripts.
+census (work best with package us)censusdis (census discovery)cenpycensus-data-downloader (for ACS data)pygris (for tiger boundary files)Access Census data in RThere are also many packages in R that facilitate census data accsess.</description>
     </item>
     
     <item>
@@ -24,7 +24,7 @@
       <pubDate>Sun, 09 Jun 2024 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
       <guid>https://suncodeearth.github.io/blog/post/2024-06-09-python-on-mac-os/</guid>
-      <description>Set up Python on Mac OS Mamba forge package The best solution so far is to use MiniForge release. The Mamba Forge combination is the most efficient one. Download and run the Shell (.sh) installation file in Mac terminal. Use mamba init zsh to initialize Python for the terminal. zsh is the default shell for Mac OS. If a different shell is used, just change the parameter in mamba init.</description>
+      <description>Set up Python on Mac OSMamba forge packageThe best solution so far is to use MiniForge release. The Mamba Forge combination is the most efficient one. Download and run the Shell (.sh) installation file in Mac terminal. Use mamba init zsh to initialize Python for the terminal. zsh is the default shell for Mac OS. If a different shell is used, just change the parameter in mamba init.</description>
     </item>
     
     <item>

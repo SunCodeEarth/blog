@@ -305,5 +305,50 @@
       <description></description>
     </item>
     
+    <item>
+      <title>example</title>
+      <link>https://suncodeearth.github.io/blog/tags/example/</link>
+      <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
+      <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
+      <guid>https://suncodeearth.github.io/blog/tags/example/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>photoswipe</title>
+      <link>https://suncodeearth.github.io/blog/tags/photoswipe/</link>
+      <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
+      <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
+      <guid>https://suncodeearth.github.io/blog/tags/photoswipe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bigimg</title>
+      <link>https://suncodeearth.github.io/blog/tags/bigimg/</link>
+      <pubDate>Tue, 07 Mar 2017 00:00:00 +0000</pubDate>
+      <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
+      <guid>https://suncodeearth.github.io/blog/tags/bigimg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>math</title>
+      <link>https://suncodeearth.github.io/blog/tags/math/</link>
+      <pubDate>Sun, 05 Mar 2017 00:00:00 +0000</pubDate>
+      <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
+      <guid>https://suncodeearth.github.io/blog/tags/math/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>markdown</title>
+      <link>https://suncodeearth.github.io/blog/tags/markdown/</link>
+      <pubDate>Fri, 20 Feb 2015 00:00:00 +0000</pubDate>
+      <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
+      <guid>https://suncodeearth.github.io/blog/tags/markdown/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
