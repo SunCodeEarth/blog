@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AWS on Blogging on Earth</title>
+    <link>https://suncodeearth.github.io/beautilog/public/tags/aws/</link>
+    <description>Recent content in AWS on Blogging on Earth</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>sunsp.gis@gmail.com (Shipeng Sun)</managingEditor>
+    <webMaster>sunsp.gis@gmail.com (Shipeng Sun)</webMaster>
+    <lastBuildDate>Thu, 27 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://suncodeearth.github.io/beautilog/public/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS S3 CLI</title>
+      <link>https://suncodeearth.github.io/beautilog/public/post/2022-10-27-aws-s3-cli/</link>
+      <pubDate>Thu, 27 Oct 2022 00:00:00 +0000</pubDate>
+      <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
+      <guid>https://suncodeearth.github.io/beautilog/public/post/2022-10-27-aws-s3-cli/</guid>
+      <description>AWS s3 (Simple Storage Service) is one of the simplest Amazon Web Service. It works just like a network drive. Amazon has granted many public institutions free S3 buckets. Smithsonian Institute (SI) is one of them. With its open access initiative, SI also shared a large amount of data on s3.
+Smithsonian Open Access on github
+AWS registry for Smithsonian
+The data largely contain metadata at SI, 3D models, and pictures.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>large dataset on Blogging on Earth</title>
+    <link>https://suncodeearth.github.io/beautilog/public/tags/large-dataset/</link>
+    <description>Recent content in large dataset on Blogging on Earth</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>sunsp.gis@gmail.com (Shipeng Sun)</managingEditor>
+    <webMaster>sunsp.gis@gmail.com (Shipeng Sun)</webMaster>
+    <lastBuildDate>Thu, 27 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://suncodeearth.github.io/beautilog/public/tags/large-dataset/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS S3 CLI</title>
+      <link>https://suncodeearth.github.io/beautilog/public/post/2022-10-27-aws-s3-cli/</link>
+      <pubDate>Thu, 27 Oct 2022 00:00:00 +0000</pubDate>
+      <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
+      <guid>https://suncodeearth.github.io/beautilog/public/post/2022-10-27-aws-s3-cli/</guid>
+      <description>AWS s3 (Simple Storage Service) is one of the simplest Amazon Web Service. It works just like a network drive. Amazon has granted many public institutions free S3 buckets. Smithsonian Institute (SI) is one of them. With its open access initiative, SI also shared a large amount of data on s3.
+Smithsonian Open Access on github
+AWS registry for Smithsonian
+The data largely contain metadata at SI, 3D models, and pictures.</description>
+    </item>
+    
+    <item>
+      <title>Vector Tiles for Leaflet</title>
+      <link>https://suncodeearth.github.io/beautilog/public/post/vector-tiles-for-leaflet/</link>
+      <pubDate>Tue, 17 May 2022 00:00:00 +0000</pubDate>
+      <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
+      <guid>https://suncodeearth.github.io/beautilog/public/post/vector-tiles-for-leaflet/</guid>
+      <description>Install GDAL ToolsThe GDAL tools are installed from https://www.gisinternals.com/. Install the core with Python applications, which contain some useful raster tools like gdal2tile.py.
+Alternatively, it can be installed using OSGeo4W. However, OSGeo4W can interfere with PostgreSQL/PostGIS on GDAL for the setting. Therefore, it is not recommended to use OSGeo4W for GDAL.
+As QGIS is part of OSGeo, it comes with GDAL pre-installed. So, it is also good to use the GDAL within QGIS.</description>
+    </item>
+    
+  </channel>
+</rss>

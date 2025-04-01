@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>geospatial data on Blogging on Earth</title>
+    <link>https://suncodeearth.github.io/beautilog/public/tags/geospatial-data/</link>
+    <description>Recent content in geospatial data on Blogging on Earth</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>sunsp.gis@gmail.com (Shipeng Sun)</managingEditor>
+    <webMaster>sunsp.gis@gmail.com (Shipeng Sun)</webMaster>
+    <lastBuildDate>Sat, 18 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://suncodeearth.github.io/beautilog/public/tags/geospatial-data/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Shortest Path in Polygons</title>
+      <link>https://suncodeearth.github.io/beautilog/public/post/2023-03-18-shortest-path-in-polygons/</link>
+      <pubDate>Sat, 18 Mar 2023 00:00:00 +0000</pubDate>
+      <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
+      <guid>https://suncodeearth.github.io/beautilog/public/post/2023-03-18-shortest-path-in-polygons/</guid>
+      <description>Finding the shortest path between two points within a (simple) polygon can be efficiently solved by using the funnel algorithm. For more details, see blog 1, blog 2, Paper 1 and Paper 2.
+A good implementation in Python is available at GitHub margaeor</description>
+    </item>
+    
+    <item>
+      <title>Vector Tiles for Leaflet</title>
+      <link>https://suncodeearth.github.io/beautilog/public/post/vector-tiles-for-leaflet/</link>
+      <pubDate>Tue, 17 May 2022 00:00:00 +0000</pubDate>
+      <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
+      <guid>https://suncodeearth.github.io/beautilog/public/post/vector-tiles-for-leaflet/</guid>
+      <description>Install GDAL ToolsThe GDAL tools are installed from https://www.gisinternals.com/. Install the core with Python applications, which contain some useful raster tools like gdal2tile.py.
+Alternatively, it can be installed using OSGeo4W. However, OSGeo4W can interfere with PostgreSQL/PostGIS on GDAL for the setting. Therefore, it is not recommended to use OSGeo4W for GDAL.
+As QGIS is part of OSGeo, it comes with GDAL pre-installed. So, it is also good to use the GDAL within QGIS.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+---
+title: "Python on Mac OS"
+author: "Shipeng Sun"
+date: "2024-06-09"
+slug: []
+categories: Python
+tags:
+- conda
+- python
+type: ''
+subtitle: ''
+image: ''
+---
+
+# Set up Python on Mac OS
+
+## Mamba forge package
+
+The best solution so far is to use [MiniForge](https://conda-forge.org/miniforge/) release. The Mamba Forge combination is the most efficient one. Download and run the Shell (.sh) installation file in Mac terminal. Use `mamba init zsh` to initialize Python for the terminal. **zsh** is the default shell for Mac OS. If a different shell is used, just change the parameter in `mamba init`. After doing this, it works just like the regular **MiniConda**. All the conda and package commands can be run in the initialized terminal.

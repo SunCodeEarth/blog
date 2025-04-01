@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+    
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>node.js management - Blogging on Earth</title>
+  <meta name="description" content="Managing node.js Today most JavaScript libraries are developed, tested, and deployed or distributed via node.js framework. Many libraries stopped providing the regular js file for web developments. Instead, they are using modules, similar to Python. For legacy systems, a separate JS file is still needed and it is necessary to use node.js and npm to get the js file. This might be the only way to get the lasted version for some JS libraries.">
+  <meta name="author" content="Shipeng Sun"/><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "Blogging on Earth",
+    
+    "url": "https:\/\/suncodeearth.github.io\/beautilog\/public\/"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "https:\/\/suncodeearth.github.io\/beautilog\/public\/"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https:\/\/suncodeearth.github.io\/beautilog\/public\/",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "https:\/\/suncodeearth.github.io\/beautilog\/public\/post\/2024-06-08-node-js-management\/",
+          "name": "Node.Js management"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "Shipeng Sun"
+  },
+  "headline": "node.js management",
+  "description" : "Managing node.js Today most JavaScript libraries are developed, tested, and deployed or distributed via node.js framework. Many libraries stopped providing the regular js file for web developments. Instead, they are using modules, similar to Python. For legacy systems, a separate JS file is still needed and it is necessary to use node.js and npm to get the js file. This might be the only way to get the lasted version for some JS libraries.",
+  "inLanguage" : "en",
+  "wordCount":  474 ,
+  "datePublished" : "2024-06-08T00:00:00",
+  "dateModified" : "2024-06-08T00:00:00",
+  "image" : "https:\/\/suncodeearth.github.io\/beautilog\/public\/img\/dice-triangle_me_res_icon.png",
+  "keywords" : [ "nodejs, conda, mamba" ],
+  "mainEntityOfPage" : "https:\/\/suncodeearth.github.io\/beautilog\/public\/post\/2024-06-08-node-js-management\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "https:\/\/suncodeearth.github.io\/beautilog\/public\/",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "https:\/\/suncodeearth.github.io\/beautilog\/public\/img\/dice-triangle_me_res_icon.png",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+<meta property="og:title" content="node.js management" />
+<meta property="og:description" content="Managing node.js Today most JavaScript libraries are developed, tested, and deployed or distributed via node.js framework. Many libraries stopped providing the regular js file for web developments. Instead, they are using modules, similar to Python. For legacy systems, a separate JS file is still needed and it is necessary to use node.js and npm to get the js file. This might be the only way to get the lasted version for some JS libraries.">
+<meta property="og:image" content="https://suncodeearth.github.io/beautilog/public/img/dice-triangle_me_res_icon.png" />
+<meta property="og:url" content="https://suncodeearth.github.io/beautilog/public/post/2024-06-08-node-js-management/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Blogging on Earth" />
+
+  <meta name="twitter:title" content="node.js management" />
+  <meta name="twitter:description" content="Managing node.js Today most JavaScript libraries are developed, tested, and deployed or distributed via node.js framework. Many libraries stopped providing the regular js file for web developments. …">
+  <meta name="twitter:image" content="https://suncodeearth.github.io/beautilog/public/img/dice-triangle_me_res_icon.png" />
+  <meta name="twitter:card" content="summary" />
+  <link href='https://suncodeearth.github.io/beautilog/public/img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta name="generator" content="Hugo 0.99.0" />
+  <link rel="alternate" href="https://suncodeearth.github.io/beautilog/public/index.xml" type="application/rss+xml" title="Blogging on Earth"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><link rel="stylesheet" href="https://suncodeearth.github.io/beautilog/public/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+  <link rel="stylesheet" href="https://suncodeearth.github.io/beautilog/public/css/highlight.min.css" /><link rel="stylesheet" href="https://suncodeearth.github.io/beautilog/public/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
+
+
+
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://suncodeearth.github.io/beautilog/public/">Blogging on Earth</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Blog" href="/beautilog/public/">Blog</a>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent">Samples</a>
+              <div class="navlinks-children">
+                
+                  <a href="/beautilog/public/post/2017-03-07-bigimg-sample">Big Image Sample</a>
+                
+                  <a href="/beautilog/public/post/2017-03-05-math-sample">Math Sample</a>
+                
+                  <a href="/beautilog/public/post/2016-03-08-code-sample">Code Sample</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li>
+              <a title="About" href="/beautilog/public/page/about/">About</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Tags" href="/beautilog/public/tags">Tags</a>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    
+      <div class="avatar-container">
+        <div class="avatar-img-border">
+          <a title="Blogging on Earth" href="https://suncodeearth.github.io/beautilog/public/">
+            <img class="avatar-img" src="https://suncodeearth.github.io/beautilog/public/img/dice-triangle_me_res_icon.png" alt="Blogging on Earth" />
+          </a>
+        </div>
+      </div>
+    
+
+  </div>
+</nav>
+
+
+
+
+    
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+  
+  
+  
+
+
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+              
+                <h1>node.js management</h1>
+              
+              
+              
+              
+                <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on June 8, 2024
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;3&nbsp;minutes
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;474&nbsp;words
+  
+  
+    
+      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Shipeng Sun
+    
+  
+  
+</span>
+
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <h1 id="managing-nodejs">Managing node.js</h1>
+<p>Today most JavaScript libraries are developed, tested, and deployed or distributed via node.js framework. Many libraries stopped providing the regular <em>js</em> file for web developments. Instead, they are using <strong>modules</strong>, similar to Python. For legacy systems, a separate JS file is still needed and it is necessary to use <em>node.js</em> and <strong>npm</strong> to get the <em>js</em> file. This might be the only way to get the lasted version for some JS libraries.</p>
+<h2 id="the-nodejs-approach">The <code>node.js</code> approach</h2>
+<h3 id="nodejs-version-management"><code>Node.js</code> Version Management</h3>
+<p><strong>NVM</strong> is supposedly the version management tool for <em>node.js</em>, although it is also quite straightforward to uninstall, install, or re-install a specific version of <strong>node.js</strong>. NVM, while offering much functionality and convenience, adds another layer of management. Other than managing node.js itself, much work is needed to manage all the packages (libraries/modules) in node.js. <strong>NPM</strong> is the internal tool from node.js for this.</p>
+<h3 id="nodejs-package-management"><code>node.js</code> package management</h3>
+<p>By default, node.js have a global module repository on a computer. For example, on Windows machine, it is at <code>C:\Users\[user account]\AppData\Roaming\npm\node_modules\</code> folder. Or use <code>npm root -g</code> to show the folder location. For consistency, it is recommended to use <code>npm install -g [package name]</code> to install all packages to that global folder. When without using the <code>-g</code> option, npm will install the package to a <code>node_modules</code> folder at the current folder where the npm is running, which is called a local folder. By default, npm starts at <code>C:\Users\[user account]</code> folder, so all the modules will be there if no directory was changed before running <code>npm install</code>.</p>
+<h2 id="the-conda-or-mamba-approach">The <code>conda</code> or <code>mamba</code> approach</h2>
+<p>In addition to Python, Conda or mamba can manage environments for node.js and R as well.</p>
+<p><code>conda create -n ndenv python=3.12.0 nodejs=20.12.2</code></p>
+<p>This will create a new environment named <strong>ndenv</strong> with node.js installed. In the <strong>ndenv</strong> environment, the <code>node_modules</code> serves as the global folder for all modules. For example, such a folder could be <code>C:\conda\envs\ndenv\node_modules</code>. When activating this environment, all node.js tools will be available on the command line as those executable files are saved at the root folder of the environment. To truly make this node.js an isolated environment, always use the <code>-g</code> option when install or update node.js modules or packages.</p>
+<p>If a different version of <strong>node.js</strong> is needed, a new environment could be created for that specific version. But more conveniently, the regular <code>conda updata -c conda-forge nodejs</code> will update it to the latest version available from the repository.</p>
+<p>Currently, the latest version of <strong>node.js 22.5.1</strong> installed through conda is missing some of the CLI tools and scripts for NPM. When running commands like <em><code>npm outdated</code></em> or <em><code>npm install -g leaflet,</code></em> errors will be reported. Using version 20.12.2, for example, can avoid these errors. More to be explored for the exact reason.</p>
+<p>Downgrade command</p>
+<p><em><code>conda install -c conda-forge nodejs=20.12</code></em></p>
+<p>It seems <strong>node.js 22.9.0</strong> or an ealier version on <code>conda</code> and <code>conda-forge</code> fixed this issue.</p>
+
+
+        
+          <div class="blog-tags">
+            
+              <a href="https://suncodeearth.github.io/beautilog/public//tags/nodejs/">nodejs</a>&nbsp;
+            
+              <a href="https://suncodeearth.github.io/beautilog/public//tags/conda/">conda</a>&nbsp;
+            
+              <a href="https://suncodeearth.github.io/beautilog/public//tags/mamba/">mamba</a>&nbsp;
+            
+          </div>
+        
+
+        
+            <hr/>
+            <section id="social-share">
+              <div class="list-inline footer-links">
+                
+
+<div class="share-box" aria-hidden="true">
+    <ul class="share">
+      
+      <li>
+        <a href="//twitter.com/share?url=https%3a%2f%2fsuncodeearth.github.io%2fbeautilog%2fpublic%2fpost%2f2024-06-08-node-js-management%2f&amp;text=node.js%20management&amp;via=" target="_blank" title="Share on Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fsuncodeearth.github.io%2fbeautilog%2fpublic%2fpost%2f2024-06-08-node-js-management%2f" target="_blank" title="Share on Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//reddit.com/submit?url=https%3a%2f%2fsuncodeearth.github.io%2fbeautilog%2fpublic%2fpost%2f2024-06-08-node-js-management%2f&amp;title=node.js%20management" target="_blank" title="Share on Reddit">
+          <i class="fab fa-reddit"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fsuncodeearth.github.io%2fbeautilog%2fpublic%2fpost%2f2024-06-08-node-js-management%2f&amp;title=node.js%20management" target="_blank" title="Share on LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fsuncodeearth.github.io%2fbeautilog%2fpublic%2fpost%2f2024-06-08-node-js-management%2f&amp;title=node.js%20management" target="_blank" title="Share on StumbleUpon">
+          <i class="fab fa-stumbleupon"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fsuncodeearth.github.io%2fbeautilog%2fpublic%2fpost%2f2024-06-08-node-js-management%2f&amp;description=node.js%20management" target="_blank" title="Share on Pinterest">
+          <i class="fab fa-pinterest"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  
+
+              </div>
+            </section>
+        
+
+        
+          
+            
+          
+
+          
+                  <h4 class="see-also">See also</h4>
+                  <ul>
+                
+                
+                    <li><a href="/beautilog/public/post/2024-06-09-python-on-mac-os/">Python on Mac OS</a></li>
+                
+              </ul>
+
+          
+        
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+            <li class="previous">
+              <a href="https://suncodeearth.github.io/beautilog/public/post/2023-03-18-shortest-path-in-polygons/" data-toggle="tooltip" data-placement="top" title="Shortest Path in Polygons">&larr; Previous Post</a>
+            </li>
+          
+          
+            <li class="next">
+              <a href="https://suncodeearth.github.io/beautilog/public/post/2024-06-09-python-on-mac-os/" data-toggle="tooltip" data-placement="top" title="Python on Mac OS">Next Post &rarr;</a>
+            </li>
+          
+        </ul>
+      
+
+
+      
+        
+        
+      
+
+    </div>
+  </div>
+</div>
+
+      
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="mailto:sunsp.gis@gmail.com" title="Email me">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/suncodeearth" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            <a href="" title="RSS">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              <a href="sunsp.net">Shipeng Sun</a>
+            
+          
+
+          &nbsp;&bull;&nbsp;&copy;
+          
+            2025
+          
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="https://suncodeearth.github.io/beautilog/public/">Blogging on Earth</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          <a href="https://gohugo.io">Hugo v0.99.0</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer><script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="https://suncodeearth.github.io/beautilog/public/js/main.js"></script>
+<script src="https://suncodeearth.github.io/beautilog/public/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> $(document).ready(function() {$("pre.chroma").css("padding","0");}); </script><script> renderMathInElement(document.body); </script><script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script><script src="https://suncodeearth.github.io/beautilog/public/js/load-photoswipe.js"></script>
+
+
+
+
+
+
+
+
+
+    
+  </body>
+</html>
+

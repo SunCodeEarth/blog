@@ -1,0 +1,18 @@
+---
+title: Shortest Path in Polygons
+author: Shipeng Sun
+date: '2023-03-18'
+slug: []
+categories:
+  - R
+tags:
+  - geospatial data
+  - algorithm
+type: ''
+subtitle: ''
+image: ''
+---
+
+Finding the shortest path between two points within a (simple) polygon can be efficiently solved by using the funnel algorithm. For more details, see [blog 1](http://digestingduck.blogspot.com/2010/03/simple-stupid-funnel-algorithm.html), [blog 2](http://ahamnett.blogspot.com/2012/10/funnel-algorithm.html), [Paper 1](img/Stanford_CS269_handout7.pdf) and [Paper 2](img/Mulzer_Shortest_Paths_in_Polygons.pdf).
+
+A good implementation in Python is available at [GitHub margaeor](https://github.com/margaeor/map-shortest-path)

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>initiatives on Blogging on Earth</title>
+    <link>https://suncodeearth.github.io/beautilog/public/tags/initiatives/</link>
+    <description>Recent content in initiatives on Blogging on Earth</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>sunsp.gis@gmail.com (Shipeng Sun)</managingEditor>
+    <webMaster>sunsp.gis@gmail.com (Shipeng Sun)</webMaster>
+    <lastBuildDate>Tue, 29 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://suncodeearth.github.io/beautilog/public/tags/initiatives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Items in Action</title>
+      <link>https://suncodeearth.github.io/beautilog/public/post/2022-11-29-items-in-action/</link>
+      <pubDate>Tue, 29 Nov 2022 00:00:00 +0000</pubDate>
+      <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
+      <guid>https://suncodeearth.github.io/beautilog/public/post/2022-11-29-items-in-action/</guid>
+      <description>This is an ongoing list of items in actions, aka list of TODO items. So often, some good directions that deserve serious investigations and explorations have to be put off. This blog is trying to make a record of these resources.
+Open Geospatial DataWhite House Transparency and Open Government
+Open data: an international comparison of strategies
+Harvard CGA China Data Links
+USGS Data Quality Assurance Best Practice and Examples</description>
+    </item>
+    
+  </channel>
+</rss>
