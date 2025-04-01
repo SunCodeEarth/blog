@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>algorithm on Blogging on Earth</title>
-    <link>https://suncodeearth.github.io/beautilog/public/tags/algorithm/</link>
+    <link>https://suncodeearth.github.io/blog/tags/algorithm/</link>
     <description>Recent content in algorithm on Blogging on Earth</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>sunsp.gis@gmail.com (Shipeng Sun)</managingEditor>
     <webMaster>sunsp.gis@gmail.com (Shipeng Sun)</webMaster>
-    <lastBuildDate>Sat, 18 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://suncodeearth.github.io/beautilog/public/tags/algorithm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://suncodeearth.github.io/blog/tags/algorithm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Shortest Path in Polygons</title>
-      <link>https://suncodeearth.github.io/beautilog/public/post/2023-03-18-shortest-path-in-polygons/</link>
+      <link>https://suncodeearth.github.io/blog/post/2023-03-18-shortest-path-in-polygons/</link>
       <pubDate>Sat, 18 Mar 2023 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/beautilog/public/post/2023-03-18-shortest-path-in-polygons/</guid>
+      <guid>https://suncodeearth.github.io/blog/post/2023-03-18-shortest-path-in-polygons/</guid>
       <description>Finding the shortest path between two points within a (simple) polygon can be efficiently solved by using the funnel algorithm. For more details, see blog 1, blog 2, Paper 1 and Paper 2.
 A good implementation in Python is available at GitHub margaeor</description>
     </item>

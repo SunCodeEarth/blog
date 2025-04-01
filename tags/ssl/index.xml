@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SSL on Blogging on Earth</title>
-    <link>https://suncodeearth.github.io/beautilog/public/tags/ssl/</link>
+    <link>https://suncodeearth.github.io/blog/tags/ssl/</link>
     <description>Recent content in SSL on Blogging on Earth</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>sunsp.gis@gmail.com (Shipeng Sun)</managingEditor>
     <webMaster>sunsp.gis@gmail.com (Shipeng Sun)</webMaster>
-    <lastBuildDate>Tue, 25 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://suncodeearth.github.io/beautilog/public/tags/ssl/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://suncodeearth.github.io/blog/tags/ssl/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Add SSL Certificate to IIS</title>
-      <link>https://suncodeearth.github.io/beautilog/public/post/2025-02-25-add-ssl-certificate-to-iis/</link>
+      <link>https://suncodeearth.github.io/blog/post/2025-02-25-add-ssl-certificate-to-iis/</link>
       <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/beautilog/public/post/2025-02-25-add-ssl-certificate-to-iis/</guid>
+      <guid>https://suncodeearth.github.io/blog/post/2025-02-25-add-ssl-certificate-to-iis/</guid>
       <description>Let&amp;rsquo;s Encrypt  Let&amp;rsquo;s Encrypt is a free, automated, and open Certificate Authority (CA), run for the public&amp;rsquo;s benefit. We give people the digital certificates they need in order to enable HTTPS (SSL/TLS) for websites, for free, in the most user-friendly way we can.
  Let&amp;rsquo;s Encrypt Client ACME Clients help create certificates for the sites and get them validated through Let&amp;rsquo;s Encrypt.
 Win-ACME win-acme is a good ACME client for Windows Server IIS.</description>

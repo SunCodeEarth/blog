@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>vector tiles on Blogging on Earth</title>
-    <link>https://suncodeearth.github.io/beautilog/public/tags/vector-tiles/</link>
+    <link>https://suncodeearth.github.io/blog/tags/vector-tiles/</link>
     <description>Recent content in vector tiles on Blogging on Earth</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>sunsp.gis@gmail.com (Shipeng Sun)</managingEditor>
     <webMaster>sunsp.gis@gmail.com (Shipeng Sun)</webMaster>
-    <lastBuildDate>Tue, 17 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://suncodeearth.github.io/beautilog/public/tags/vector-tiles/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 17 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://suncodeearth.github.io/blog/tags/vector-tiles/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Vector Tiles for Leaflet</title>
-      <link>https://suncodeearth.github.io/beautilog/public/post/vector-tiles-for-leaflet/</link>
+      <link>https://suncodeearth.github.io/blog/post/vector-tiles-for-leaflet/</link>
       <pubDate>Tue, 17 May 2022 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/beautilog/public/post/vector-tiles-for-leaflet/</guid>
+      <guid>https://suncodeearth.github.io/blog/post/vector-tiles-for-leaflet/</guid>
       <description>Install GDAL ToolsThe GDAL tools are installed from https://www.gisinternals.com/. Install the core with Python applications, which contain some useful raster tools like gdal2tile.py.
 Alternatively, it can be installed using OSGeo4W. However, OSGeo4W can interfere with PostgreSQL/PostGIS on GDAL for the setting. Therefore, it is not recommended to use OSGeo4W for GDAL.
 As QGIS is part of OSGeo, it comes with GDAL pre-installed. So, it is also good to use the GDAL within QGIS.</description>

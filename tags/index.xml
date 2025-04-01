@@ -2,351 +2,351 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Blogging on Earth</title>
-    <link>https://suncodeearth.github.io/beautilog/public/tags/</link>
+    <link>https://suncodeearth.github.io/blog/tags/</link>
     <description>Recent content in Tags on Blogging on Earth</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>sunsp.gis@gmail.com (Shipeng Sun)</managingEditor>
     <webMaster>sunsp.gis@gmail.com (Shipeng Sun)</webMaster>
-    <lastBuildDate>Tue, 25 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://suncodeearth.github.io/beautilog/public/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://suncodeearth.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>IIS</title>
-      <link>https://suncodeearth.github.io/beautilog/public/tags/iis/</link>
+      <link>https://suncodeearth.github.io/blog/tags/iis/</link>
       <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/beautilog/public/tags/iis/</guid>
+      <guid>https://suncodeearth.github.io/blog/tags/iis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SSL</title>
-      <link>https://suncodeearth.github.io/beautilog/public/tags/ssl/</link>
+      <link>https://suncodeearth.github.io/blog/tags/ssl/</link>
       <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/beautilog/public/tags/ssl/</guid>
+      <guid>https://suncodeearth.github.io/blog/tags/ssl/</guid>
       <description></description>
     </item>
     
     <item>
       <title>website</title>
-      <link>https://suncodeearth.github.io/beautilog/public/tags/website/</link>
+      <link>https://suncodeearth.github.io/blog/tags/website/</link>
       <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/beautilog/public/tags/website/</guid>
+      <guid>https://suncodeearth.github.io/blog/tags/website/</guid>
       <description></description>
     </item>
     
     <item>
       <title>web resources</title>
-      <link>https://suncodeearth.github.io/beautilog/public/tags/web-resources/</link>
+      <link>https://suncodeearth.github.io/blog/tags/web-resources/</link>
       <pubDate>Sat, 28 Sep 2024 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/beautilog/public/tags/web-resources/</guid>
+      <guid>https://suncodeearth.github.io/blog/tags/web-resources/</guid>
       <description></description>
     </item>
     
     <item>
       <title>census</title>
-      <link>https://suncodeearth.github.io/beautilog/public/tags/census/</link>
+      <link>https://suncodeearth.github.io/blog/tags/census/</link>
       <pubDate>Thu, 13 Jun 2024 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/beautilog/public/tags/census/</guid>
+      <guid>https://suncodeearth.github.io/blog/tags/census/</guid>
       <description></description>
     </item>
     
     <item>
       <title>code</title>
-      <link>https://suncodeearth.github.io/beautilog/public/tags/code/</link>
+      <link>https://suncodeearth.github.io/blog/tags/code/</link>
       <pubDate>Thu, 13 Jun 2024 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/beautilog/public/tags/code/</guid>
+      <guid>https://suncodeearth.github.io/blog/tags/code/</guid>
       <description></description>
     </item>
     
     <item>
       <title>python</title>
-      <link>https://suncodeearth.github.io/beautilog/public/tags/python/</link>
+      <link>https://suncodeearth.github.io/blog/tags/python/</link>
       <pubDate>Thu, 13 Jun 2024 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/beautilog/public/tags/python/</guid>
+      <guid>https://suncodeearth.github.io/blog/tags/python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>conda</title>
-      <link>https://suncodeearth.github.io/beautilog/public/tags/conda/</link>
+      <link>https://suncodeearth.github.io/blog/tags/conda/</link>
       <pubDate>Sun, 09 Jun 2024 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/beautilog/public/tags/conda/</guid>
+      <guid>https://suncodeearth.github.io/blog/tags/conda/</guid>
       <description></description>
     </item>
     
     <item>
       <title>mamba</title>
-      <link>https://suncodeearth.github.io/beautilog/public/tags/mamba/</link>
+      <link>https://suncodeearth.github.io/blog/tags/mamba/</link>
       <pubDate>Sat, 08 Jun 2024 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/beautilog/public/tags/mamba/</guid>
+      <guid>https://suncodeearth.github.io/blog/tags/mamba/</guid>
       <description></description>
     </item>
     
     <item>
       <title>nodejs</title>
-      <link>https://suncodeearth.github.io/beautilog/public/tags/nodejs/</link>
+      <link>https://suncodeearth.github.io/blog/tags/nodejs/</link>
       <pubDate>Sat, 08 Jun 2024 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/beautilog/public/tags/nodejs/</guid>
+      <guid>https://suncodeearth.github.io/blog/tags/nodejs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>algorithm</title>
-      <link>https://suncodeearth.github.io/beautilog/public/tags/algorithm/</link>
+      <link>https://suncodeearth.github.io/blog/tags/algorithm/</link>
       <pubDate>Sat, 18 Mar 2023 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/beautilog/public/tags/algorithm/</guid>
+      <guid>https://suncodeearth.github.io/blog/tags/algorithm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>geospatial data</title>
-      <link>https://suncodeearth.github.io/beautilog/public/tags/geospatial-data/</link>
+      <link>https://suncodeearth.github.io/blog/tags/geospatial-data/</link>
       <pubDate>Sat, 18 Mar 2023 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/beautilog/public/tags/geospatial-data/</guid>
+      <guid>https://suncodeearth.github.io/blog/tags/geospatial-data/</guid>
       <description></description>
     </item>
     
     <item>
       <title>future directions</title>
-      <link>https://suncodeearth.github.io/beautilog/public/tags/future-directions/</link>
+      <link>https://suncodeearth.github.io/blog/tags/future-directions/</link>
       <pubDate>Tue, 29 Nov 2022 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/beautilog/public/tags/future-directions/</guid>
+      <guid>https://suncodeearth.github.io/blog/tags/future-directions/</guid>
       <description></description>
     </item>
     
     <item>
       <title>initiatives</title>
-      <link>https://suncodeearth.github.io/beautilog/public/tags/initiatives/</link>
+      <link>https://suncodeearth.github.io/blog/tags/initiatives/</link>
       <pubDate>Tue, 29 Nov 2022 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/beautilog/public/tags/initiatives/</guid>
+      <guid>https://suncodeearth.github.io/blog/tags/initiatives/</guid>
       <description></description>
     </item>
     
     <item>
       <title>AWS</title>
-      <link>https://suncodeearth.github.io/beautilog/public/tags/aws/</link>
+      <link>https://suncodeearth.github.io/blog/tags/aws/</link>
       <pubDate>Thu, 27 Oct 2022 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/beautilog/public/tags/aws/</guid>
+      <guid>https://suncodeearth.github.io/blog/tags/aws/</guid>
       <description></description>
     </item>
     
     <item>
       <title>large dataset</title>
-      <link>https://suncodeearth.github.io/beautilog/public/tags/large-dataset/</link>
+      <link>https://suncodeearth.github.io/blog/tags/large-dataset/</link>
       <pubDate>Thu, 27 Oct 2022 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/beautilog/public/tags/large-dataset/</guid>
+      <guid>https://suncodeearth.github.io/blog/tags/large-dataset/</guid>
       <description></description>
     </item>
     
     <item>
       <title>computer settings</title>
-      <link>https://suncodeearth.github.io/beautilog/public/tags/computer-settings/</link>
+      <link>https://suncodeearth.github.io/blog/tags/computer-settings/</link>
       <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/beautilog/public/tags/computer-settings/</guid>
+      <guid>https://suncodeearth.github.io/blog/tags/computer-settings/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ebook</title>
-      <link>https://suncodeearth.github.io/beautilog/public/tags/ebook/</link>
+      <link>https://suncodeearth.github.io/blog/tags/ebook/</link>
       <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/beautilog/public/tags/ebook/</guid>
+      <guid>https://suncodeearth.github.io/blog/tags/ebook/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ereader</title>
-      <link>https://suncodeearth.github.io/beautilog/public/tags/ereader/</link>
+      <link>https://suncodeearth.github.io/blog/tags/ereader/</link>
       <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/beautilog/public/tags/ereader/</guid>
+      <guid>https://suncodeearth.github.io/blog/tags/ereader/</guid>
       <description></description>
     </item>
     
     <item>
       <title>fonts</title>
-      <link>https://suncodeearth.github.io/beautilog/public/tags/fonts/</link>
+      <link>https://suncodeearth.github.io/blog/tags/fonts/</link>
       <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/beautilog/public/tags/fonts/</guid>
+      <guid>https://suncodeearth.github.io/blog/tags/fonts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>geospatial database</title>
-      <link>https://suncodeearth.github.io/beautilog/public/tags/geospatial-database/</link>
+      <link>https://suncodeearth.github.io/blog/tags/geospatial-database/</link>
       <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/beautilog/public/tags/geospatial-database/</guid>
+      <guid>https://suncodeearth.github.io/blog/tags/geospatial-database/</guid>
       <description></description>
     </item>
     
     <item>
       <title>PostGIS</title>
-      <link>https://suncodeearth.github.io/beautilog/public/tags/postgis/</link>
+      <link>https://suncodeearth.github.io/blog/tags/postgis/</link>
       <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/beautilog/public/tags/postgis/</guid>
+      <guid>https://suncodeearth.github.io/blog/tags/postgis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>PostgreSQL</title>
-      <link>https://suncodeearth.github.io/beautilog/public/tags/postgresql/</link>
+      <link>https://suncodeearth.github.io/blog/tags/postgresql/</link>
       <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/beautilog/public/tags/postgresql/</guid>
+      <guid>https://suncodeearth.github.io/blog/tags/postgresql/</guid>
       <description></description>
     </item>
     
     <item>
       <title>DHCP</title>
-      <link>https://suncodeearth.github.io/beautilog/public/tags/dhcp/</link>
+      <link>https://suncodeearth.github.io/blog/tags/dhcp/</link>
       <pubDate>Thu, 26 May 2022 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/beautilog/public/tags/dhcp/</guid>
+      <guid>https://suncodeearth.github.io/blog/tags/dhcp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>IP</title>
-      <link>https://suncodeearth.github.io/beautilog/public/tags/ip/</link>
+      <link>https://suncodeearth.github.io/blog/tags/ip/</link>
       <pubDate>Thu, 26 May 2022 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/beautilog/public/tags/ip/</guid>
+      <guid>https://suncodeearth.github.io/blog/tags/ip/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Repeated tasks</title>
-      <link>https://suncodeearth.github.io/beautilog/public/tags/repeated-tasks/</link>
+      <link>https://suncodeearth.github.io/blog/tags/repeated-tasks/</link>
       <pubDate>Thu, 26 May 2022 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/beautilog/public/tags/repeated-tasks/</guid>
+      <guid>https://suncodeearth.github.io/blog/tags/repeated-tasks/</guid>
       <description></description>
     </item>
     
     <item>
       <title>blogdown</title>
-      <link>https://suncodeearth.github.io/beautilog/public/tags/blogdown/</link>
+      <link>https://suncodeearth.github.io/blog/tags/blogdown/</link>
       <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/beautilog/public/tags/blogdown/</guid>
+      <guid>https://suncodeearth.github.io/blog/tags/blogdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R Markdown</title>
-      <link>https://suncodeearth.github.io/beautilog/public/tags/r-markdown/</link>
+      <link>https://suncodeearth.github.io/blog/tags/r-markdown/</link>
       <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/beautilog/public/tags/r-markdown/</guid>
+      <guid>https://suncodeearth.github.io/blog/tags/r-markdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>theme</title>
-      <link>https://suncodeearth.github.io/beautilog/public/tags/theme/</link>
+      <link>https://suncodeearth.github.io/blog/tags/theme/</link>
       <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/beautilog/public/tags/theme/</guid>
+      <guid>https://suncodeearth.github.io/blog/tags/theme/</guid>
       <description></description>
     </item>
     
     <item>
       <title>leaflet</title>
-      <link>https://suncodeearth.github.io/beautilog/public/tags/leaflet/</link>
+      <link>https://suncodeearth.github.io/blog/tags/leaflet/</link>
       <pubDate>Tue, 17 May 2022 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/beautilog/public/tags/leaflet/</guid>
+      <guid>https://suncodeearth.github.io/blog/tags/leaflet/</guid>
       <description></description>
     </item>
     
     <item>
       <title>vector tiles</title>
-      <link>https://suncodeearth.github.io/beautilog/public/tags/vector-tiles/</link>
+      <link>https://suncodeearth.github.io/blog/tags/vector-tiles/</link>
       <pubDate>Tue, 17 May 2022 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/beautilog/public/tags/vector-tiles/</guid>
+      <guid>https://suncodeearth.github.io/blog/tags/vector-tiles/</guid>
       <description></description>
     </item>
     
     <item>
       <title>plot</title>
-      <link>https://suncodeearth.github.io/beautilog/public/tags/plot/</link>
+      <link>https://suncodeearth.github.io/blog/tags/plot/</link>
       <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/beautilog/public/tags/plot/</guid>
+      <guid>https://suncodeearth.github.io/blog/tags/plot/</guid>
       <description></description>
     </item>
     
     <item>
       <title>regression</title>
-      <link>https://suncodeearth.github.io/beautilog/public/tags/regression/</link>
+      <link>https://suncodeearth.github.io/blog/tags/regression/</link>
       <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/beautilog/public/tags/regression/</guid>
+      <guid>https://suncodeearth.github.io/blog/tags/regression/</guid>
       <description></description>
     </item>
     
     <item>
       <title>example</title>
-      <link>https://suncodeearth.github.io/beautilog/public/tags/example/</link>
+      <link>https://suncodeearth.github.io/blog/tags/example/</link>
       <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/beautilog/public/tags/example/</guid>
+      <guid>https://suncodeearth.github.io/blog/tags/example/</guid>
       <description></description>
     </item>
     
     <item>
       <title>photoswipe</title>
-      <link>https://suncodeearth.github.io/beautilog/public/tags/photoswipe/</link>
+      <link>https://suncodeearth.github.io/blog/tags/photoswipe/</link>
       <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/beautilog/public/tags/photoswipe/</guid>
+      <guid>https://suncodeearth.github.io/blog/tags/photoswipe/</guid>
       <description></description>
     </item>
     
     <item>
       <title>bigimg</title>
-      <link>https://suncodeearth.github.io/beautilog/public/tags/bigimg/</link>
+      <link>https://suncodeearth.github.io/blog/tags/bigimg/</link>
       <pubDate>Tue, 07 Mar 2017 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/beautilog/public/tags/bigimg/</guid>
+      <guid>https://suncodeearth.github.io/blog/tags/bigimg/</guid>
       <description></description>
     </item>
     
     <item>
       <title>math</title>
-      <link>https://suncodeearth.github.io/beautilog/public/tags/math/</link>
+      <link>https://suncodeearth.github.io/blog/tags/math/</link>
       <pubDate>Sun, 05 Mar 2017 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/beautilog/public/tags/math/</guid>
+      <guid>https://suncodeearth.github.io/blog/tags/math/</guid>
       <description></description>
     </item>
     
     <item>
       <title>markdown</title>
-      <link>https://suncodeearth.github.io/beautilog/public/tags/markdown/</link>
+      <link>https://suncodeearth.github.io/blog/tags/markdown/</link>
       <pubDate>Fri, 20 Feb 2015 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/beautilog/public/tags/markdown/</guid>
+      <guid>https://suncodeearth.github.io/blog/tags/markdown/</guid>
       <description></description>
     </item>
     

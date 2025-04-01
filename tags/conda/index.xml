@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>conda on Blogging on Earth</title>
-    <link>https://suncodeearth.github.io/beautilog/public/tags/conda/</link>
+    <link>https://suncodeearth.github.io/blog/tags/conda/</link>
     <description>Recent content in conda on Blogging on Earth</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>sunsp.gis@gmail.com (Shipeng Sun)</managingEditor>
     <webMaster>sunsp.gis@gmail.com (Shipeng Sun)</webMaster>
-    <lastBuildDate>Sun, 09 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://suncodeearth.github.io/beautilog/public/tags/conda/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 09 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://suncodeearth.github.io/blog/tags/conda/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Python on Mac OS</title>
-      <link>https://suncodeearth.github.io/beautilog/public/post/2024-06-09-python-on-mac-os/</link>
+      <link>https://suncodeearth.github.io/blog/post/2024-06-09-python-on-mac-os/</link>
       <pubDate>Sun, 09 Jun 2024 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/beautilog/public/post/2024-06-09-python-on-mac-os/</guid>
+      <guid>https://suncodeearth.github.io/blog/post/2024-06-09-python-on-mac-os/</guid>
       <description>Set up Python on Mac OS Mamba forge package The best solution so far is to use MiniForge release. The Mamba Forge combination is the most efficient one. Download and run the Shell (.sh) installation file in Mac terminal. Use mamba init zsh to initialize Python for the terminal. zsh is the default shell for Mac OS. If a different shell is used, just change the parameter in mamba init.</description>
     </item>
     
     <item>
       <title>node.js management</title>
-      <link>https://suncodeearth.github.io/beautilog/public/post/2024-06-08-node-js-management/</link>
+      <link>https://suncodeearth.github.io/blog/post/2024-06-08-node-js-management/</link>
       <pubDate>Sat, 08 Jun 2024 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/beautilog/public/post/2024-06-08-node-js-management/</guid>
+      <guid>https://suncodeearth.github.io/blog/post/2024-06-08-node-js-management/</guid>
       <description>Managing node.js Today most JavaScript libraries are developed, tested, and deployed or distributed via node.js framework. Many libraries stopped providing the regular js file for web developments. Instead, they are using modules, similar to Python. For legacy systems, a separate JS file is still needed and it is necessary to use node.js and npm to get the js file. This might be the only way to get the lasted version for some JS libraries.</description>
     </item>
     

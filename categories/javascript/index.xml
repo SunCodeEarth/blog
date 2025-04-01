@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>JavaScript on Blogging on Earth</title>
-    <link>https://suncodeearth.github.io/beautilog/public/categories/javascript/</link>
+    <link>https://suncodeearth.github.io/blog/categories/javascript/</link>
     <description>Recent content in JavaScript on Blogging on Earth</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>sunsp.gis@gmail.com (Shipeng Sun)</managingEditor>
     <webMaster>sunsp.gis@gmail.com (Shipeng Sun)</webMaster>
-    <lastBuildDate>Sat, 08 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://suncodeearth.github.io/beautilog/public/categories/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://suncodeearth.github.io/blog/categories/javascript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>node.js management</title>
-      <link>https://suncodeearth.github.io/beautilog/public/post/2024-06-08-node-js-management/</link>
+      <link>https://suncodeearth.github.io/blog/post/2024-06-08-node-js-management/</link>
       <pubDate>Sat, 08 Jun 2024 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/beautilog/public/post/2024-06-08-node-js-management/</guid>
+      <guid>https://suncodeearth.github.io/blog/post/2024-06-08-node-js-management/</guid>
       <description>Managing node.js Today most JavaScript libraries are developed, tested, and deployed or distributed via node.js framework. Many libraries stopped providing the regular js file for web developments. Instead, they are using modules, similar to Python. For legacy systems, a separate JS file is still needed and it is necessary to use node.js and npm to get the js file. This might be the only way to get the lasted version for some JS libraries.</description>
     </item>
     
     <item>
       <title>Vector Tiles for Leaflet</title>
-      <link>https://suncodeearth.github.io/beautilog/public/post/vector-tiles-for-leaflet/</link>
+      <link>https://suncodeearth.github.io/blog/post/vector-tiles-for-leaflet/</link>
       <pubDate>Tue, 17 May 2022 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/beautilog/public/post/vector-tiles-for-leaflet/</guid>
+      <guid>https://suncodeearth.github.io/blog/post/vector-tiles-for-leaflet/</guid>
       <description>Install GDAL ToolsThe GDAL tools are installed from https://www.gisinternals.com/. Install the core with Python applications, which contain some useful raster tools like gdal2tile.py.
 Alternatively, it can be installed using OSGeo4W. However, OSGeo4W can interfere with PostgreSQL/PostGIS on GDAL for the setting. Therefore, it is not recommended to use OSGeo4W for GDAL.
 As QGIS is part of OSGeo, it comes with GDAL pre-installed. So, it is also good to use the GDAL within QGIS.</description>

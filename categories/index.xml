@@ -2,90 +2,90 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Blogging on Earth</title>
-    <link>https://suncodeearth.github.io/beautilog/public/categories/</link>
+    <link>https://suncodeearth.github.io/blog/categories/</link>
     <description>Recent content in Categories on Blogging on Earth</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>sunsp.gis@gmail.com (Shipeng Sun)</managingEditor>
     <webMaster>sunsp.gis@gmail.com (Shipeng Sun)</webMaster>
-    <lastBuildDate>Tue, 25 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://suncodeearth.github.io/beautilog/public/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://suncodeearth.github.io/blog/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Settings</title>
-      <link>https://suncodeearth.github.io/beautilog/public/categories/settings/</link>
+      <link>https://suncodeearth.github.io/blog/categories/settings/</link>
       <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/beautilog/public/categories/settings/</guid>
+      <guid>https://suncodeearth.github.io/blog/categories/settings/</guid>
       <description></description>
     </item>
     
     <item>
       <title>web</title>
-      <link>https://suncodeearth.github.io/beautilog/public/categories/web/</link>
+      <link>https://suncodeearth.github.io/blog/categories/web/</link>
       <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/beautilog/public/categories/web/</guid>
+      <guid>https://suncodeearth.github.io/blog/categories/web/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Python</title>
-      <link>https://suncodeearth.github.io/beautilog/public/categories/python/</link>
+      <link>https://suncodeearth.github.io/blog/categories/python/</link>
       <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/beautilog/public/categories/python/</guid>
+      <guid>https://suncodeearth.github.io/blog/categories/python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>https://suncodeearth.github.io/beautilog/public/categories/r/</link>
+      <link>https://suncodeearth.github.io/blog/categories/r/</link>
       <pubDate>Thu, 13 Jun 2024 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/beautilog/public/categories/r/</guid>
+      <guid>https://suncodeearth.github.io/blog/categories/r/</guid>
       <description></description>
     </item>
     
     <item>
       <title>JavaScript</title>
-      <link>https://suncodeearth.github.io/beautilog/public/categories/javascript/</link>
+      <link>https://suncodeearth.github.io/blog/categories/javascript/</link>
       <pubDate>Sat, 08 Jun 2024 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/beautilog/public/categories/javascript/</guid>
+      <guid>https://suncodeearth.github.io/blog/categories/javascript/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Efficiency Tool</title>
-      <link>https://suncodeearth.github.io/beautilog/public/categories/efficiency-tool/</link>
+      <link>https://suncodeearth.github.io/blog/categories/efficiency-tool/</link>
       <pubDate>Tue, 29 Nov 2022 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/beautilog/public/categories/efficiency-tool/</guid>
+      <guid>https://suncodeearth.github.io/blog/categories/efficiency-tool/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cloud Computing</title>
-      <link>https://suncodeearth.github.io/beautilog/public/categories/cloud-computing/</link>
+      <link>https://suncodeearth.github.io/blog/categories/cloud-computing/</link>
       <pubDate>Thu, 27 Oct 2022 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/beautilog/public/categories/cloud-computing/</guid>
+      <guid>https://suncodeearth.github.io/blog/categories/cloud-computing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Database</title>
-      <link>https://suncodeearth.github.io/beautilog/public/categories/database/</link>
+      <link>https://suncodeearth.github.io/blog/categories/database/</link>
       <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/beautilog/public/categories/database/</guid>
+      <guid>https://suncodeearth.github.io/blog/categories/database/</guid>
       <description></description>
     </item>
     
     <item>
       <title>blogdown</title>
-      <link>https://suncodeearth.github.io/beautilog/public/categories/blogdown/</link>
+      <link>https://suncodeearth.github.io/blog/categories/blogdown/</link>
       <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/beautilog/public/categories/blogdown/</guid>
+      <guid>https://suncodeearth.github.io/blog/categories/blogdown/</guid>
       <description></description>
     </item>
     
