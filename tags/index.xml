@@ -7,7 +7,34 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>sunsp.gis@gmail.com (Shipeng Sun)</managingEditor>
     <webMaster>sunsp.gis@gmail.com (Shipeng Sun)</webMaster>
-    <lastBuildDate>Tue, 25 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://suncodeearth.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://suncodeearth.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>computer settings</title>
+      <link>https://suncodeearth.github.io/blog/tags/computer-settings/</link>
+      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate>
+      <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
+      <guid>https://suncodeearth.github.io/blog/tags/computer-settings/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>conda</title>
+      <link>https://suncodeearth.github.io/blog/tags/conda/</link>
+      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate>
+      <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
+      <guid>https://suncodeearth.github.io/blog/tags/conda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R Markdown</title>
+      <link>https://suncodeearth.github.io/blog/tags/r-markdown/</link>
+      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate>
+      <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
+      <guid>https://suncodeearth.github.io/blog/tags/r-markdown/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>IIS</title>
       <link>https://suncodeearth.github.io/blog/tags/iis/</link>
@@ -68,15 +95,6 @@
       <pubDate>Thu, 13 Jun 2024 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
       <guid>https://suncodeearth.github.io/blog/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>conda</title>
-      <link>https://suncodeearth.github.io/blog/tags/conda/</link>
-      <pubDate>Sun, 09 Jun 2024 00:00:00 +0000</pubDate>
-      <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/blog/tags/conda/</guid>
       <description></description>
     </item>
     
@@ -149,15 +167,6 @@
       <pubDate>Thu, 27 Oct 2022 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
       <guid>https://suncodeearth.github.io/blog/tags/large-dataset/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>computer settings</title>
-      <link>https://suncodeearth.github.io/blog/tags/computer-settings/</link>
-      <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
-      <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/blog/tags/computer-settings/</guid>
       <description></description>
     </item>
     
@@ -248,15 +257,6 @@
       <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
       <guid>https://suncodeearth.github.io/blog/tags/blogdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R Markdown</title>
-      <link>https://suncodeearth.github.io/blog/tags/r-markdown/</link>
-      <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
-      <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/blog/tags/r-markdown/</guid>
       <description></description>
     </item>
     

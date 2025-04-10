@@ -3,27 +3,48 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://suncodeearth.github.io/blog/</loc>
-    <lastmod>2025-02-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://suncodeearth.github.io/blog/post/2025-02-25-add-ssl-certificate-to-iis/</loc>
-    <lastmod>2025-02-25T00:00:00+00:00</lastmod>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://suncodeearth.github.io/blog/categories/</loc>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://suncodeearth.github.io/blog/post/2025-04-10-computation-on-windows-arm64-computers/</loc>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://suncodeearth.github.io/blog/tags/computer-settings/</loc>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://suncodeearth.github.io/blog/tags/conda/</loc>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://suncodeearth.github.io/blog/post/2025-04-10-disable-global-protect-pan-autostart/</loc>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://suncodeearth.github.io/blog/post/</loc>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://suncodeearth.github.io/blog/categories/python/</loc>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://suncodeearth.github.io/blog/categories/r/</loc>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://suncodeearth.github.io/blog/tags/r-markdown/</loc>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://suncodeearth.github.io/blog/categories/settings/</loc>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://suncodeearth.github.io/blog/tags/</loc>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://suncodeearth.github.io/blog/post/2025-02-25-add-ssl-certificate-to-iis/</loc>
     <lastmod>2025-02-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://suncodeearth.github.io/blog/tags/iis/</loc>
     <lastmod>2025-02-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://suncodeearth.github.io/blog/post/</loc>
-    <lastmod>2025-02-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://suncodeearth.github.io/blog/categories/settings/</loc>
-    <lastmod>2025-02-25T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://suncodeearth.github.io/blog/tags/ssl/</loc>
-    <lastmod>2025-02-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://suncodeearth.github.io/blog/tags/</loc>
     <lastmod>2025-02-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://suncodeearth.github.io/blog/categories/web/</loc>
@@ -38,9 +59,6 @@
     <loc>https://suncodeearth.github.io/blog/tags/web-resources/</loc>
     <lastmod>2024-09-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://suncodeearth.github.io/blog/categories/python/</loc>
-    <lastmod>2024-06-15T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://suncodeearth.github.io/blog/post/2024-06-15-speeding-up-python/</loc>
     <lastmod>2024-06-15T00:00:00+00:00</lastmod>
   </url><url>
@@ -53,14 +71,8 @@
     <loc>https://suncodeearth.github.io/blog/tags/python/</loc>
     <lastmod>2024-06-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://suncodeearth.github.io/blog/categories/r/</loc>
-    <lastmod>2024-06-13T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://suncodeearth.github.io/blog/post/2024-06-13-use-census-api-in-r-and-python/</loc>
     <lastmod>2024-06-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://suncodeearth.github.io/blog/tags/conda/</loc>
-    <lastmod>2024-06-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://suncodeearth.github.io/blog/post/2024-06-09-python-on-mac-os/</loc>
     <lastmod>2024-06-09T00:00:00+00:00</lastmod>
@@ -110,9 +122,6 @@
     <loc>https://suncodeearth.github.io/blog/tags/large-dataset/</loc>
     <lastmod>2022-10-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://suncodeearth.github.io/blog/tags/computer-settings/</loc>
-    <lastmod>2022-07-17T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://suncodeearth.github.io/blog/tags/ebook/</loc>
     <lastmod>2022-07-17T00:00:00+00:00</lastmod>
   </url><url>
@@ -156,9 +165,6 @@
     <lastmod>2022-05-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://suncodeearth.github.io/blog/categories/blogdown/</loc>
-    <lastmod>2022-05-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://suncodeearth.github.io/blog/tags/r-markdown/</loc>
     <lastmod>2022-05-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://suncodeearth.github.io/blog/post/2022-05-18-blogdown-start/</loc>

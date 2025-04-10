@@ -7,7 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>sunsp.gis@gmail.com (Shipeng Sun)</managingEditor>
     <webMaster>sunsp.gis@gmail.com (Shipeng Sun)</webMaster>
-    <lastBuildDate>Sun, 17 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://suncodeearth.github.io/blog/tags/computer-settings/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://suncodeearth.github.io/blog/tags/computer-settings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Computation on Windows Arm64 Computers</title>
+      <link>https://suncodeearth.github.io/blog/post/2025-04-10-computation-on-windows-arm64-computers/</link>
+      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate>
+      <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
+      <guid>https://suncodeearth.github.io/blog/post/2025-04-10-computation-on-windows-arm64-computers/</guid>
+      <description>Windows have been releasing more Arm64 based laptops and tablets. However, it is still quite inconvenient to set those computers for scientific computation in Python, R, etc. Overall, it is not recommended to use an arm64 Windows computers for data science works. Here are a few possible solutions.
+General Solution In general, we can use it as a Linux computer with WSL2. However, not all computational platforms/environments are available on Linux such as Ubuntu.</description>
+    </item>
+    
+    <item>
+      <title>Disable Global Protect (PAN) Autostart</title>
+      <link>https://suncodeearth.github.io/blog/post/2025-04-10-disable-global-protect-pan-autostart/</link>
+      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate>
+      <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
+      <guid>https://suncodeearth.github.io/blog/post/2025-04-10-disable-global-protect-pan-autostart/</guid>
+      <description>Global Protect from Palo Alto Networks (PAN) is a widely used VPN client. However, it is quite annoying that the program will automatically start even when we just occasionally use the VPN to connect to remote computers. Here are a few clues to disable the autostart of Global Protect on Windows and Mac, respectively.
+Windows 11 Computers It seems PAN plays the game quite well. It is not easy to use the normal methods to disable the auto start.</description>
+    </item>
+    
     <item>
       <title>Read New on new Reader</title>
       <link>https://suncodeearth.github.io/blog/post/setting-up-new-ebook-reader/</link>
