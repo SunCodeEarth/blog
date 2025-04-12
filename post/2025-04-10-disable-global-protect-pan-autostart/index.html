@@ -60,7 +60,7 @@ Windows 11 Computers It seems PAN plays the game quite well. It is not easy to u
   "headline": "Disable Global Protect (PAN) Autostart",
   "description" : "Global Protect from Palo Alto Networks (PAN) is a widely used VPN client. However, it is quite annoying that the program will automatically start even when we just occasionally use the VPN to connect to remote computers. Here are a few clues to disable the autostart of Global Protect on Windows and Mac, respectively.\nWindows 11 Computers It seems PAN plays the game quite well. It is not easy to use the normal methods to disable the auto start.",
   "inLanguage" : "en",
-  "wordCount":  221 ,
+  "wordCount":  239 ,
   "datePublished" : "2025-04-10T00:00:00",
   "dateModified" : "2025-04-10T00:00:00",
   "image" : "https:\/\/suncodeearth.github.io\/blog\/img\/S.png",
@@ -257,7 +257,7 @@ Windows 11 Computers It seems PAN plays the game quite well. It is not easy to u
     &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;2&nbsp;minutes
   
   
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;221&nbsp;words
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;239&nbsp;words
   
   
     
@@ -284,13 +284,13 @@ Windows 11 Computers It seems PAN plays the game quite well. It is not easy to u
       <article role="main" class="blog-post">
         <p>Global Protect from Palo Alto Networks (PAN) is a widely used VPN client. However, it is quite annoying that the program will automatically start even when we just occasionally use the VPN to connect to remote computers. Here are a few clues to disable the autostart of Global Protect on Windows and Mac, respectively.</p>
 <h3 id="windows-11-computers">Windows 11 Computers</h3>
-<p>It seems PAN plays the game quite well. It is not easy to use the normal methods to disable the auto start. Here are one approach.</p>
+<p>It seems PAN plays the game quite well. It is not easy to use the normal methods to disable the auto start. Here is one approach that has been proved working.</p>
 <ul>
 <li>
-<p>Change the startup type <code>PanGPS (Palo Alto Networks Global Protect App for Windows)</code> from automatic to manual , so that it would not start automatically. This is done from <code>Services</code> in Windows Control Panel.</p>
+<p>Change the startup type of <code>PanGPS (Palo Alto Networks Global Protect App for Windows)</code> service from automatic to manual , so that it would not start automatically. This is done from <code>Services</code> in Windows Control Panel.</p>
 </li>
 <li>
-<p>Rename the <code>PanGPA.exe</code> to <code>PanGPA_Manual.exe</code> so that PAN cannot locate the file. Create a shortcut of the newly named file and put the shortcut to desktop or somewhere that is easy to access.</p>
+<p>Rename the <code>PanGPA.exe</code> to <code>PanGPA_Manual.exe</code> in the Global Protect directory (normally <code>C:\Program Files\Palo Alto Networks\Global Protect</code> so that PAN cannot locate the file. Create a shortcut of the newly named file and put the shortcut on desktop or somewhere that is easy to access.</p>
 </li>
 </ul>
 <p>After this, the program will not start when Windows open. To start the Global Protect:</p>
