@@ -9,7 +9,7 @@
 
   <title>Computation on Windows Arm64 Computers - Blogging on Earth</title>
   <meta name="description" content="Windows have been releasing more Arm64 based laptops and tablets. However, it is still quite inconvenient to set those computers for scientific computation in Python, R, etc. Overall, it is not recommended to use an arm64 Windows computers for data science works. Here are a few possible solutions.
-General Solution In general, we can use it as a Linux computer with WSL2. However, not all computational platforms/environments are available on Linux such as Ubuntu.">
+General Solution In general, we can use it as a Linux computer with WSL2. However, not all computational platforms/environments are available on Linux systems like Ubuntu.">
   <meta name="author" content="Shipeng Sun"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -58,9 +58,9 @@ General Solution In general, we can use it as a Linux computer with WSL2. Howeve
     "name" : "Shipeng Sun"
   },
   "headline": "Computation on Windows Arm64 Computers",
-  "description" : "Windows have been releasing more Arm64 based laptops and tablets. However, it is still quite inconvenient to set those computers for scientific computation in Python, R, etc. Overall, it is not recommended to use an arm64 Windows computers for data science works. Here are a few possible solutions.\nGeneral Solution In general, we can use it as a Linux computer with WSL2. However, not all computational platforms\/environments are available on Linux such as Ubuntu.",
+  "description" : "Windows have been releasing more Arm64 based laptops and tablets. However, it is still quite inconvenient to set those computers for scientific computation in Python, R, etc. Overall, it is not recommended to use an arm64 Windows computers for data science works. Here are a few possible solutions.\nGeneral Solution In general, we can use it as a Linux computer with WSL2. However, not all computational platforms\/environments are available on Linux systems like Ubuntu.",
   "inLanguage" : "en",
-  "wordCount":  740 ,
+  "wordCount":  953 ,
   "datePublished" : "2025-04-10T00:00:00",
   "dateModified" : "2025-04-10T00:00:00",
   "image" : "https:\/\/suncodeearth.github.io\/blog\/img\/S.png",
@@ -81,7 +81,7 @@ General Solution In general, we can use it as a Linux computer with WSL2. Howeve
 
 <meta property="og:title" content="Computation on Windows Arm64 Computers" />
 <meta property="og:description" content="Windows have been releasing more Arm64 based laptops and tablets. However, it is still quite inconvenient to set those computers for scientific computation in Python, R, etc. Overall, it is not recommended to use an arm64 Windows computers for data science works. Here are a few possible solutions.
-General Solution In general, we can use it as a Linux computer with WSL2. However, not all computational platforms/environments are available on Linux such as Ubuntu.">
+General Solution In general, we can use it as a Linux computer with WSL2. However, not all computational platforms/environments are available on Linux systems like Ubuntu.">
 <meta property="og:image" content="https://suncodeearth.github.io/blog/img/S.png" />
 <meta property="og:url" content="https://suncodeearth.github.io/blog/post/2025-04-10-computation-on-windows-arm64-computers/" />
 <meta property="og:type" content="website" />
@@ -254,10 +254,10 @@ General Solution In general, we can use it as a Linux computer with WSL2. Howeve
   <i class="fas fa-calendar"></i>&nbsp;Posted on April 10, 2025
   
   
-    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;4&nbsp;minutes
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;5&nbsp;minutes
   
   
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;740&nbsp;words
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;953&nbsp;words
   
   
     
@@ -284,8 +284,8 @@ General Solution In general, we can use it as a Linux computer with WSL2. Howeve
       <article role="main" class="blog-post">
         <p>Windows have been releasing more Arm64 based laptops and tablets. However, it is still quite inconvenient to set those computers for scientific computation in Python, R, etc. Overall, it is not recommended to use an arm64 Windows computers for data science works. Here are a few possible solutions.</p>
 <h3 id="general-solution">General Solution</h3>
-<p>In general, we can use it as a Linux computer with WSL2. However, not all computational platforms/environments are available on Linux such as Ubuntu. Even when they are available, they tend to support the server version better. RStudio Server is such an example. This may add another layer of learning and configuration.</p>
-<p>Arm provides a comprehensive <a href="https://learn.arm.com/install-guides/">guidance on software installation</a>. Many solutions, supposedly authoritative and tested, could be found on that website. For example, <strong>Anaconda (Python)</strong>, Java, Docker, and Visual Studio are included in the guidance.</p>
+<p>In general, we can use it as a Linux computer with WSL2. However, not all computational platforms/environments are available on Linux systems like Ubuntu. Even when they are available, they tend to support the server version better. RStudio Server is such an example. This may add another layer of learning and configuration.</p>
+<p>Arm provides a comprehensive <a href="https://learn.arm.com/install-guides/">guidance on software installation</a>. Many solutions, supposedly authoritative and tested, could be found on that website. For example, <strong>Anaconda (Python)</strong>, Java, Docker, and Visual Studio are included in the guidance. These Arm-architecture solutions, however, are mostly for Mac and Linux, not for Windows.</p>
 <h2 id="specific-environments">Specific Environments</h2>
 <h3 id="r-and-rstudio">R and RStudio</h3>
 <p>R has <a href="https://blog.r-project.org/2024/04/23/r-on-64-bit-arm-windows/">an experimental arm64 version</a>. We can directly <a href="https://www.r-project.org/nosvn/winutf8/aarch64/">download</a> and install them. However, we <a href="https://forum.posit.co/t/are-rstudio-and-quarto-compatible-with-windows-arm64-qualcomm-snapdragon/194360">do not have an arm64 version RStudio yet</a>. Even if we make the R work, it is still not quite convenient without RStudio.</p>
@@ -308,7 +308,7 @@ General Solution In general, we can use it as a Linux computer with WSL2. Howeve
 </span></span><span class="line"><span class="cl"><span class="err">#</span> <span class="nx">Verify</span> <span class="nx">the</span> <span class="nx">architecture</span>
 </span></span><span class="line"><span class="cl"><span class="nx">uname</span> <span class="o">-</span><span class="nx">m</span>
 </span></span><span class="line"><span class="cl"><span class="err">#</span> <span class="nx">it</span> <span class="nx">should</span> <span class="nx">be</span> <span class="s">&#34;aach64&#34;</span>
-</span></span></code></pre></div><p>Ubuntu has a repository for &ldquo;packages&rdquo; that can be managed by apt. We can search packages with a version/code name of Ubuntu. For example, we can search &ldquo;r-base&rdquo; using code name &ldquo;noble&rdquo; (LTS 24.0), which is the R for Linux/Ubuntu.</p>
+</span></span></code></pre></div><p>Ubuntu has a repository for &ldquo;packages&rdquo; that can be managed by apt. We can search packages with a version/code name of Ubuntu. For example, we can search &ldquo;r-base&rdquo; using Ubuntu code name &ldquo;noble&rdquo; (LTS 24.0), which is the R for Linux/Ubuntu.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="err">#</span> <span class="nx">list</span> <span class="nx">the</span> <span class="kn">package</span> <span class="nx">with</span> <span class="nx">name</span> <span class="nx">of</span> <span class="nx">r</span><span class="o">-</span><span class="nx">base</span>
 </span></span><span class="line"><span class="cl"><span class="err">#</span> <span class="nx">it</span> <span class="nx">is</span> <span class="nx">the</span> <span class="nx">base</span> <span class="nx">R</span> <span class="kn">package</span> <span class="p">(</span><span class="nx">same</span> <span class="nx">as</span> <span class="nx">on</span> <span class="nx">cran</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="nx">apt</span> <span class="nx">list</span> <span class="nx">r</span><span class="o">-</span><span class="nx">base</span>
@@ -336,12 +336,14 @@ General Solution In general, we can use it as a Linux computer with WSL2. Howeve
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo rstudio-server stop
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">rstudio-server verify-installation
-</span></span></code></pre></div><p>Although the install packages from the CRN repository works, it is rather costly because all the package source code will be compiled locally. It is recommended to use the Ubuntu packages repository.</p>
+</span></span></code></pre></div><p>Although the <code>install.packages(&quot;package_name&quot;)</code> from the CRN repository works, it is rather costly because all the package source code will be compiled locally. It is recommended to use the Ubuntu packages repository.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="err">#</span> <span class="nx">Make</span> <span class="nx">sure</span> <span class="nx">the</span> <span class="kn">package</span> <span class="nx">exisits</span>
 </span></span><span class="line"><span class="cl"><span class="nx">apt</span> <span class="nx">list</span> <span class="nx">r</span><span class="o">-</span><span class="nx">cran</span><span class="o">-</span><span class="nx">tidyverse</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="err">#</span> <span class="k">if</span> <span class="nx">it</span> <span class="nx">does</span><span class="p">,</span> <span class="nx">install</span> <span class="nx">it</span> <span class="nx">through</span> <span class="nx">apt</span><span class="p">.</span>
 </span></span><span class="line"><span class="cl"><span class="err">#</span> <span class="k">if</span> <span class="nx">not</span><span class="p">,</span> <span class="nx">install</span><span class="p">.</span><span class="nf">packages</span><span class="p">()</span> <span class="nx">in</span> <span class="nx">R</span> <span class="nx">and</span> <span class="nx">compile</span> <span class="nx">the</span> <span class="nx">source</span> <span class="nx">code</span>
+</span></span><span class="line"><span class="cl"><span class="err">#</span> <span class="nx">It</span> <span class="nx">look</span> <span class="nx">likes</span> <span class="nx">installing</span> <span class="nx">any</span> <span class="kn">package</span> <span class="nx">from</span> <span class="nx">Ubuntu</span> <span class="nx">repository</span> <span class="nx">will</span> <span class="nx">install</span> <span class="nx">ALL</span> <span class="nx">packages</span><span class="p">.</span>
+</span></span><span class="line"><span class="cl"><span class="err">#</span> <span class="nx">This</span> <span class="nx">is</span> <span class="nx">too</span> <span class="nx">costly</span> <span class="k">for</span> <span class="nx">computers</span> <span class="nx">with</span> <span class="nx">limited</span> <span class="nx">space</span><span class="p">.</span>
 </span></span><span class="line"><span class="cl"><span class="nx">sudo</span> <span class="nx">apt</span> <span class="nx">install</span> <span class="nx">r</span><span class="o">-</span><span class="nx">cran</span><span class="o">-</span><span class="nx">tidyverse</span>
 </span></span></code></pre></div><h4 id="r2u-solution-the-preferred-approach-for-r-packages">r2u solution (the preferred approach) for R packages</h4>
 <p>A more thorough and elegant solution is <a href="https://github.com/eddelbuettel/r2u">r2u</a>, which supports both amd64 and arm64 on Ubuntu noble. It essentially delivers CRAN packages as binaries, with other benefits like dependency integrity and complete support of all CRAN packages. The official Ubuntu packages repository only supports about 800 R packages. r2u supports over 24, 000. It is super fast as it always uses the release version of the compiled packages.</p>
@@ -362,6 +364,38 @@ General Solution In general, we can use it as a Linux computer with WSL2. Howeve
 </span></span><span class="line"><span class="cl">sudo apt install r-cran-sf
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"># Even when we run install.packages in R, it will also use r2u
+</span></span></code></pre></div><h3 id="python-without-anaconda">Python without Anaconda</h3>
+<p>Python has started supporting Windows arm64 directly. It is completely fine to use <code>&quot;Python + venv + pip&quot;</code> to make Python work for Windows arm64. The real issues are those python packages that do not have Windows arm version.</p>
+<p>So, a more robust solution is still the <code>WSL2</code>. Ubuntu has native support for Python. Then we can just use <code>venv + pip</code> to manage Python packages. This solution also works well for VS Code when we &ldquo;remotely&rdquo; connect to WSL2 on the same computer.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"># install venv
+</span></span><span class="line"><span class="cl">sudo apt install python3-venv
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># pip
+</span></span><span class="line"><span class="cl">sudo apt install python3-pip
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># or reinstall
+</span></span><span class="line"><span class="cl">sudo apt install --reinstall python3-pip
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># create virtual environment named spatial in /home/envs folder
+</span></span><span class="line"><span class="cl">python3 -m venv /home/envs/spatial
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># activate
+</span></span><span class="line"><span class="cl">source /home/envs/spatial/bin/activate
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># Verify
+</span></span><span class="line"><span class="cl">which python
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># Deactivate
+</span></span><span class="line"><span class="cl">deactivate 
+</span></span></code></pre></div><p>Using <code>pip</code> to manage Python packages. Read the <a href="https://docs.python.org/3/tutorial/venv.html#managing-packages-with-pip">Python documentation</a> for more details.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"># List all packages in the current venv
+</span></span><span class="line"><span class="cl">python -m pip list
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># install packages
+</span></span><span class="line"><span class="cl">python -m pip install geopandas plotly
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># install a specific version. 
+</span></span><span class="line"><span class="cl">python -m pip install requests==2.6.0
 </span></span></code></pre></div><h3 id="anaconda-and-python">Anaconda and Python</h3>
 <p>To be tested: the <a href="https://learn.arm.com/install-guides/anaconda/">arm learning path solution for Anaconda</a>.</p>
 <p>Check out <a href="https://www.anaconda.com/docs/getting-started/anaconda/install#linux-installer">the official Anaconda installation documentation.</a></p>
