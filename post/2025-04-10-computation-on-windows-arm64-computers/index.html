@@ -60,7 +60,7 @@ General Solution In general, we can use it as a Linux computer with WSL2. Howeve
   "headline": "Computation on Windows Arm64 Computers",
   "description" : "Microsoft and other manufacturers had been releasing more arm64-based laptops and tablets. However, it is still quite inconvenient to set those computers for scientific computation in Python, R, etc. Overall, it is not recommended to use an arm64 Windows computer for data science works. Here are a few possible solutions.\nGeneral Solution In general, we can use it as a Linux computer with WSL2. However, not all computational platforms\/environments are available on Linux systems like Ubuntu.",
   "inLanguage" : "en",
-  "wordCount":  1072 ,
+  "wordCount":  1157 ,
   "datePublished" : "2025-04-10T00:00:00",
   "dateModified" : "2025-04-10T00:00:00",
   "image" : "https:\/\/suncodeearth.github.io\/blog\/img\/S.png",
@@ -257,7 +257,7 @@ General Solution In general, we can use it as a Linux computer with WSL2. Howeve
     &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;6&nbsp;minutes
   
   
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;1072&nbsp;words
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;1157&nbsp;words
   
   
     
@@ -415,14 +415,30 @@ General Solution In general, we can use it as a Linux computer with WSL2. Howeve
 </span></span><span class="line"><span class="cl"># install a specific version. 
 </span></span><span class="line"><span class="cl">python -m pip install requests==2.6.0
 </span></span></code></pre></div><h3 id="anaconda-and-python">Anaconda and Python</h3>
-<p>To be tested: the <a href="https://learn.arm.com/install-guides/anaconda/">arm learning path solution for Anaconda</a>.</p>
-<p>Check out <a href="https://www.anaconda.com/docs/getting-started/anaconda/install#linux-installer">the official Anaconda installation documentation.</a></p>
+<p>As the most stable and mature Python virtual environment and package dependency solution, it is always recommended to use Conda/Miniconda whenever possible.</p>
+<p>For WSL2 on Windows arm computers, Conda/Miniconda works very well. Check out <a href="https://www.anaconda.com/docs/getting-started/anaconda/install#linux-installer">the official Anaconda installation documentation.</a> Also take a look at the <a href="https://learn.arm.com/install-guides/anaconda/">arm learning path solution for Anaconda</a>.</p>
 <p>View a full list of Anaconda Distribution installers in the official <a href="https://repo.anaconda.com/archive/">archive</a>.</p>
 <p>Same for <a href="https://www.anaconda.com/docs/getting-started/miniconda/install#macos-linux-installation:to-download-a-different-version">Miniconda</a>.</p>
 <p>View a full list of Miniconda installers in the official <a href="https://repo.anaconda.com/miniconda/">Miniconda archive</a>.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"># Replace &lt;FILENAME&gt; with the installer Filename you copied from the archive
-</span></span><span class="line"><span class="cl">wget https://repo.anaconda.com/miniconda/&lt;FILENAME&gt;
-</span></span></code></pre></div>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-aarch64.sh
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">bash ~/Miniconda3-latest-Linux-aarch64.sh
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">source ~/miniconda3/bin/activate
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># Automatically start conda base on initialization
+</span></span><span class="line"><span class="cl">conda init --all
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># Reverse the automatic intilization
+</span></span><span class="line"><span class="cl">conda init --reverse
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># We can always start an environment using
+</span></span><span class="line"><span class="cl">~/miniconda3/bin/conda init
+</span></span><span class="line"><span class="cl">conda activate [env_name]
+</span></span></code></pre></div><p>For a very informative explanation of conda initialization on Linux/Ubuntu, read <a href="https://www.linsnotes.com/posts/miniconda-installation-on-linux-should-you-enable-auto-initialization/#how-to-disable-auto-initialization">this blog at Lin&rsquo;s notes</a>.</p>
+
 
         
           <div class="blog-tags">
