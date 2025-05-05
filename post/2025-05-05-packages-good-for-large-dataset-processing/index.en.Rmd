@@ -1,0 +1,41 @@
+---
+title: Packages Good for Large Dataset Processing
+author: Shipeng Sun
+date: '2025-05-05'
+slug: []
+categories:
+  - Efficiency Tool
+  - Cloud Computing
+tags:
+  - geospatial data
+  - python
+type: ''
+subtitle: ''
+image: ''
+---
+
+## Three criteria to evaluate if a package or library is suitable for processing very large datasets.
+
+-   Implement core functions in a language that is efficient for computation
+
+    -   C, C++, FORTRAN, Rust are rather good on this.
+    -   Python, R, and other high-level languages are not very good.
+
+-   Support multi-threading and even distributed computing
+
+    -   Relying on single core, single thread would not produce good performance.
+    -   It is necessary to support multi-threading, either on the same computer or a cluster
+
+-   Enable efficient indexing
+
+    -   This is particularly critical for geospatial applications.
+    -   Data should only be lazy-loaded, i.e., load as needed.
+    -   Indexing allows quickly loading the needed data.
+
+## Some examples
+
+-   [lasR](https://www.r-lidar.com/lasr) and [lidR](https://www.r-lidar.com/lidr): Check out its documentation on its philosophy
+
+    -   [Multithreading](https://r-lidar.github.io/lasR/articles/multithreading.html)
+    -   [LAS Catalog](https://r-lidar.github.io/lidRbook/engine.html) (implemented in lidR, supported by lasR)
+    -   [Spatial Indexing](https://r-lidar.github.io/lidRbook/spatialindex.html)
