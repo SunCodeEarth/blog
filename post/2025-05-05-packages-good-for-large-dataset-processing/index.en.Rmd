@@ -21,7 +21,7 @@ image: ''
     -   C, C++, FORTRAN, Rust are rather good on this.
     -   Python, R, and other high-level languages are not very good.
 
--   Support multi-threading and even distributed computing
+-   Support multithreading and even distributed computing
 
     -   Relying on single core, single thread would not produce good performance.
     -   It is necessary to support multi-threading, either on the same computer or a cluster
