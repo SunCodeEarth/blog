@@ -7,7 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>sunsp.gis@gmail.com (Shipeng Sun)</managingEditor>
     <webMaster>sunsp.gis@gmail.com (Shipeng Sun)</webMaster>
-    <lastBuildDate>Thu, 10 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://suncodeearth.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://suncodeearth.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>geospatial data</title>
+      <link>https://suncodeearth.github.io/blog/tags/geospatial-data/</link>
+      <pubDate>Mon, 05 May 2025 00:00:00 +0000</pubDate>
+      <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
+      <guid>https://suncodeearth.github.io/blog/tags/geospatial-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://suncodeearth.github.io/blog/tags/python/</link>
+      <pubDate>Mon, 05 May 2025 00:00:00 +0000</pubDate>
+      <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
+      <guid>https://suncodeearth.github.io/blog/tags/python/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>computer settings</title>
       <link>https://suncodeearth.github.io/blog/tags/computer-settings/</link>
@@ -90,15 +108,6 @@
     </item>
     
     <item>
-      <title>python</title>
-      <link>https://suncodeearth.github.io/blog/tags/python/</link>
-      <pubDate>Thu, 13 Jun 2024 00:00:00 +0000</pubDate>
-      <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/blog/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>mamba</title>
       <link>https://suncodeearth.github.io/blog/tags/mamba/</link>
       <pubDate>Sat, 08 Jun 2024 00:00:00 +0000</pubDate>
@@ -122,15 +131,6 @@
       <pubDate>Sat, 18 Mar 2023 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
       <guid>https://suncodeearth.github.io/blog/tags/algorithm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>geospatial data</title>
-      <link>https://suncodeearth.github.io/blog/tags/geospatial-data/</link>
-      <pubDate>Sat, 18 Mar 2023 00:00:00 +0000</pubDate>
-      <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/blog/tags/geospatial-data/</guid>
       <description></description>
     </item>
     

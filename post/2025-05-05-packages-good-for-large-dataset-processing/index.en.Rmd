@@ -1,14 +1,14 @@
 ---
-title: Packages Good for Large Dataset Processing
-author: Shipeng Sun
-date: '2025-05-05'
+title: "Packages Good for Large Dataset Processing"
+author: "Shipeng Sun"
+date: "2025-05-05"
 slug: []
 categories:
-  - Efficiency Tool
-  - Cloud Computing
+- Efficiency Tool
+- Cloud Computing
 tags:
-  - geospatial data
-  - python
+- geospatial data
+- python
 type: ''
 subtitle: ''
 image: ''

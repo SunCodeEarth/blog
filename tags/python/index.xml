@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>sunsp.gis@gmail.com (Shipeng Sun)</managingEditor>
     <webMaster>sunsp.gis@gmail.com (Shipeng Sun)</webMaster>
-    <lastBuildDate>Thu, 13 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://suncodeearth.github.io/blog/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://suncodeearth.github.io/blog/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Packages Good for Large Dataset Processing</title>
+      <link>https://suncodeearth.github.io/blog/post/2025-05-05-packages-good-for-large-dataset-processing/</link>
+      <pubDate>Mon, 05 May 2025 00:00:00 +0000</pubDate>
+      <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
+      <guid>https://suncodeearth.github.io/blog/post/2025-05-05-packages-good-for-large-dataset-processing/</guid>
+      <description>Three criteria to evaluate if a package or library is suitable for processing very large datasets.Implement core functions in a language that is efficient for computation
+C, C++, FORTRAN, Rust are rather good on this.Python, R, and other high-level languages are not very good.Support multithreading and even distributed computing
+Relying on single core, single thread would not produce good performance.It is necessary to support multi-threading, either on the same computer or a clusterEnable efficient indexing</description>
+    </item>
+    
     <item>
       <title>Use census API in R and Python</title>
       <link>https://suncodeearth.github.io/blog/post/2024-06-13-use-census-api-in-r-and-python/</link>

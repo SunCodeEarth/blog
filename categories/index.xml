@@ -7,7 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>sunsp.gis@gmail.com (Shipeng Sun)</managingEditor>
     <webMaster>sunsp.gis@gmail.com (Shipeng Sun)</webMaster>
-    <lastBuildDate>Thu, 10 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://suncodeearth.github.io/blog/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://suncodeearth.github.io/blog/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cloud Computing</title>
+      <link>https://suncodeearth.github.io/blog/categories/cloud-computing/</link>
+      <pubDate>Mon, 05 May 2025 00:00:00 +0000</pubDate>
+      <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
+      <guid>https://suncodeearth.github.io/blog/categories/cloud-computing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficiency Tool</title>
+      <link>https://suncodeearth.github.io/blog/categories/efficiency-tool/</link>
+      <pubDate>Mon, 05 May 2025 00:00:00 +0000</pubDate>
+      <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
+      <guid>https://suncodeearth.github.io/blog/categories/efficiency-tool/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Python</title>
       <link>https://suncodeearth.github.io/blog/categories/python/</link>
@@ -50,24 +68,6 @@
       <pubDate>Sat, 08 Jun 2024 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
       <guid>https://suncodeearth.github.io/blog/categories/javascript/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Efficiency Tool</title>
-      <link>https://suncodeearth.github.io/blog/categories/efficiency-tool/</link>
-      <pubDate>Tue, 29 Nov 2022 00:00:00 +0000</pubDate>
-      <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/blog/categories/efficiency-tool/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cloud Computing</title>
-      <link>https://suncodeearth.github.io/blog/categories/cloud-computing/</link>
-      <pubDate>Thu, 27 Oct 2022 00:00:00 +0000</pubDate>
-      <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
-      <guid>https://suncodeearth.github.io/blog/categories/cloud-computing/</guid>
       <description></description>
     </item>
     
