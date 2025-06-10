@@ -1,5 +1,5 @@
 ---
-title: "Computation Environment on Mac OS"
+title: "Computational Environment on Mac OS"
 author: "Shipeng Sun"
 date: "2024-06-09"
 slug: []
@@ -18,7 +18,7 @@ image: ''
 
 The best solution so far is to use [MiniForge](https://conda-forge.org/miniforge/) release. The Mamba Forge combination is the most efficient one. Download and run the Shell (.sh) installation file in Mac terminal. Use `mamba init zsh` to initialize Python for the terminal. **zsh** is the default shell for Mac OS. If a different shell is used, just change the parameter in `mamba init`. After doing this, it works just like the regular **MiniConda**. All the conda and package commands can be run in the initialized terminal.
 
-```{bash}
+```{bash bash_conda, echo=TRUE, eval=FALSE}
 
 # This will start conda automatically with zsh (default shell) on MacOS
 conda init zsh
@@ -38,7 +38,7 @@ It is a pretty standard process as both have good support for MacOS with Intel o
 
 On Windows, we can just add `R_LIBS_USER` as a system or user environment variable. On MacOS, we can add a `.Renviron` file in our home directory and then add this line to the file.
 
-```{bash}
+```{bash, eval=FALSE}
 R_LIBS_USER=~/R-libs/4.x
 ```
 

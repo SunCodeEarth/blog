@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>Python on Mac OS - Blogging on Earth</title>
+  <title>Computational Environment on Mac OS - Blogging on Earth</title>
   <meta name="description" content="Set up Python on Mac OSMamba forge packageThe best solution so far is to use MiniForge release. The Mamba Forge combination is the most efficient one. Download and run the Shell (.sh) installation file in Mac terminal. Use mamba init zsh to initialize Python for the terminal. zsh is the default shell for Mac OS. If a different shell is used, just change the parameter in mamba init.">
   <meta name="author" content="Shipeng Sun"/><script type="application/ld+json">
 {
@@ -45,7 +45,7 @@
         "position": 3,
         "item": {
           "@id": "https:\/\/suncodeearth.github.io\/blog\/post\/2024-06-09-python-on-mac-os\/",
-          "name": "Python on MAC os"
+          "name": "Computational environment on MAC os"
         }
     }]
 }
@@ -56,10 +56,10 @@
   "author": {
     "name" : "Shipeng Sun"
   },
-  "headline": "Python on Mac OS",
+  "headline": "Computational Environment on Mac OS",
   "description" : "Set up Python on Mac OS\rMamba forge package\rThe best solution so far is to use MiniForge release. The Mamba Forge combination is the most efficient one. Download and run the Shell (.sh) installation file in Mac terminal. Use mamba init zsh to initialize Python for the terminal. zsh is the default shell for Mac OS. If a different shell is used, just change the parameter in mamba init.",
   "inLanguage" : "en",
-  "wordCount":  93 ,
+  "wordCount":  272 ,
   "datePublished" : "2024-06-09T00:00:00",
   "dateModified" : "2024-06-09T00:00:00",
   "image" : "https:\/\/suncodeearth.github.io\/blog\/img\/S.png",
@@ -78,14 +78,14 @@
 }
 </script>
 
-<meta property="og:title" content="Python on Mac OS" />
+<meta property="og:title" content="Computational Environment on Mac OS" />
 <meta property="og:description" content="Set up Python on Mac OSMamba forge packageThe best solution so far is to use MiniForge release. The Mamba Forge combination is the most efficient one. Download and run the Shell (.sh) installation file in Mac terminal. Use mamba init zsh to initialize Python for the terminal. zsh is the default shell for Mac OS. If a different shell is used, just change the parameter in mamba init.">
 <meta property="og:image" content="https://suncodeearth.github.io/blog/img/S.png" />
 <meta property="og:url" content="https://suncodeearth.github.io/blog/post/2024-06-09-python-on-mac-os/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Blogging on Earth" />
 
-  <meta name="twitter:title" content="Python on Mac OS" />
+  <meta name="twitter:title" content="Computational Environment on Mac OS" />
   <meta name="twitter:description" content="Set up Python on Mac OSMamba forge packageThe best solution so far is to use MiniForge release. The Mamba Forge combination is the most efficient one. Download and run the Shell (.sh) installation …">
   <meta name="twitter:image" content="https://suncodeearth.github.io/blog/img/S.png" />
   <meta name="twitter:card" content="summary" />
@@ -241,7 +241,7 @@
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             <div class="post-heading">
               
-                <h1>Python on Mac OS</h1>
+                <h1>Computational Environment on Mac OS</h1>
               
               
               
@@ -252,10 +252,10 @@
   <i class="fas fa-calendar"></i>&nbsp;Posted on June 9, 2024
   
   
-    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;2&nbsp;minutes
   
   
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;93&nbsp;words
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;272&nbsp;words
   
   
     
@@ -288,7 +288,25 @@
 <div id="mamba-forge-package" class="section level2">
 <h2>Mamba forge package</h2>
 <p>The best solution so far is to use <a href="https://conda-forge.org/miniforge/">MiniForge</a> release. The Mamba Forge combination is the most efficient one. Download and run the Shell (.sh) installation file in Mac terminal. Use <code>mamba init zsh</code> to initialize Python for the terminal. <strong>zsh</strong> is the default shell for Mac OS. If a different shell is used, just change the parameter in <code>mamba init</code>. After doing this, it works just like the regular <strong>MiniConda</strong>. All the conda and package commands can be run in the initialized terminal.</p>
+<pre class="bash"><code>
+# This will start conda automatically with zsh (default shell) on MacOS
+conda init zsh
+# Revserse the autostart. Or delete the lines from .zshrc in your home directory
+conda init --reverse
+
+# This can start the base conda environment
+source ~/miniconda/bin/activate
+
+# return back to the normal bash
+conda deactivate</code></pre>
 </div>
+</div>
+<div id="r-and-rstudio-on-macos" class="section level1">
+<h1>R and RStudio on MacOS</h1>
+<p>It is a pretty standard process as both have good support for MacOS with Intel or Apple Silicon chips. Just one common issue for R. By default, R packages are associated with specific versions. We can add a R_LIBS_USER environment variable to allow different versions of R share those packages so that we don’t have to re-install them when upgrading R from 4.4 to 4.5, for instance.</p>
+<p>On Windows, we can just add <code>R_LIBS_USER</code> as a system or user environment variable. On MacOS, we can add a <code>.Renviron</code> file in our home directory and then add this line to the file.</p>
+<pre class="bash"><code>R_LIBS_USER=~/R-libs/4.x</code></pre>
+<p><code>~</code> means your home directory, which can be replaced by <code>/Users/[your user name]</code>. Make sure the folder exists on the drive.s</p>
 </div>
 
 
@@ -312,7 +330,7 @@
     <ul class="share">
       
       <li>
-        <a href="//twitter.com/share?url=https%3a%2f%2fsuncodeearth.github.io%2fblog%2fpost%2f2024-06-09-python-on-mac-os%2f&amp;text=Python%20on%20Mac%20OS&amp;via=" target="_blank" title="Share on Twitter">
+        <a href="//twitter.com/share?url=https%3a%2f%2fsuncodeearth.github.io%2fblog%2fpost%2f2024-06-09-python-on-mac-os%2f&amp;text=Computational%20Environment%20on%20Mac%20OS&amp;via=" target="_blank" title="Share on Twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -326,28 +344,28 @@
   
       
       <li>
-        <a href="//reddit.com/submit?url=https%3a%2f%2fsuncodeearth.github.io%2fblog%2fpost%2f2024-06-09-python-on-mac-os%2f&amp;title=Python%20on%20Mac%20OS" target="_blank" title="Share on Reddit">
+        <a href="//reddit.com/submit?url=https%3a%2f%2fsuncodeearth.github.io%2fblog%2fpost%2f2024-06-09-python-on-mac-os%2f&amp;title=Computational%20Environment%20on%20Mac%20OS" target="_blank" title="Share on Reddit">
           <i class="fab fa-reddit"></i>
         </a>
       </li>
   
       
       <li>
-        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fsuncodeearth.github.io%2fblog%2fpost%2f2024-06-09-python-on-mac-os%2f&amp;title=Python%20on%20Mac%20OS" target="_blank" title="Share on LinkedIn">
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fsuncodeearth.github.io%2fblog%2fpost%2f2024-06-09-python-on-mac-os%2f&amp;title=Computational%20Environment%20on%20Mac%20OS" target="_blank" title="Share on LinkedIn">
           <i class="fab fa-linkedin"></i>
         </a>
       </li>
   
       
       <li>
-        <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fsuncodeearth.github.io%2fblog%2fpost%2f2024-06-09-python-on-mac-os%2f&amp;title=Python%20on%20Mac%20OS" target="_blank" title="Share on StumbleUpon">
+        <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fsuncodeearth.github.io%2fblog%2fpost%2f2024-06-09-python-on-mac-os%2f&amp;title=Computational%20Environment%20on%20Mac%20OS" target="_blank" title="Share on StumbleUpon">
           <i class="fab fa-stumbleupon"></i>
         </a>
       </li>
   
       
       <li>
-        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fsuncodeearth.github.io%2fblog%2fpost%2f2024-06-09-python-on-mac-os%2f&amp;description=Python%20on%20Mac%20OS" target="_blank" title="Share on Pinterest">
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fsuncodeearth.github.io%2fblog%2fpost%2f2024-06-09-python-on-mac-os%2f&amp;description=Computational%20Environment%20on%20Mac%20OS" target="_blank" title="Share on Pinterest">
           <i class="fab fa-pinterest"></i>
         </a>
       </li>
