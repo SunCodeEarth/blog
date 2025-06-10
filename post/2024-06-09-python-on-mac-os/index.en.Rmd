@@ -42,4 +42,4 @@ On Windows, we can just add `R_LIBS_USER` as a system or user environment variab
 R_LIBS_USER=~/R-libs/4.x
 ```
 
-`~` means your home directory, which can be replaced by `/Users/[your user name]`. Make sure the folder exists on the drive.s
+`~` means your home directory, which can be replaced by `/Users/[your user name]`. Make sure the folder exists on the drive.

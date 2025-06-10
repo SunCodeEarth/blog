@@ -306,7 +306,7 @@ conda deactivate</code></pre>
 <p>It is a pretty standard process as both have good support for MacOS with Intel or Apple Silicon chips. Just one common issue for R. By default, R packages are associated with specific versions. We can add a R_LIBS_USER environment variable to allow different versions of R share those packages so that we don’t have to re-install them when upgrading R from 4.4 to 4.5, for instance.</p>
 <p>On Windows, we can just add <code>R_LIBS_USER</code> as a system or user environment variable. On MacOS, we can add a <code>.Renviron</code> file in our home directory and then add this line to the file.</p>
 <pre class="bash"><code>R_LIBS_USER=~/R-libs/4.x</code></pre>
-<p><code>~</code> means your home directory, which can be replaced by <code>/Users/[your user name]</code>. Make sure the folder exists on the drive.s</p>
+<p><code>~</code> means your home directory, which can be replaced by <code>/Users/[your user name]</code>. Make sure the folder exists on the drive.</p>
 </div>
 
 
