@@ -59,7 +59,7 @@
   "headline": "Use your own domain name for GitHub Pages",
   "description" : "To point your own domain name like from GoDaddy and Webhostingpad to a GitHub Pages site, we need to use the A records in DNS settings. Specifically, we need to configure the DNS settings with own domain registrar (GoDaddy, Webhostingpad, etc.) and update your GitHub Pages settings. We\u0026rsquo;ll need to create A records, i.e., Address Records, pointing to the GitHub Pages IP addresses and verify the custom domain in GitHub. Here\u0026rsquo;s a step-by-step breakdown:",
   "inLanguage" : "en",
-  "wordCount":  454 ,
+  "wordCount":  480 ,
   "datePublished" : "2025-07-10T00:00:00",
   "dateModified" : "2025-07-10T00:00:00",
   "image" : "https:\/\/suncodeearth.github.io\/blog\/img\/S.png",
@@ -255,7 +255,7 @@
     &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;3&nbsp;minutes
   
   
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;454&nbsp;words
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;480&nbsp;words
   
   
     
@@ -310,7 +310,7 @@
 <p>Under &ldquo;Custom domain,&rdquo; enter your domain or sub-domain name (e.g., <code>yourdomain.com or blog.mysite.com</code>).</p>
 </li>
 <li>
-<p>GitHub will perform a DNS check and may provide further instructions.</p>
+<p>GitHub will perform a DNS check and may provide <a href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site">further instructions</a>.</p>
 </li>
 <li>
 <p>Consider verifying your custom domain in GitHub Pages for added security. </p>
@@ -320,27 +320,26 @@
 <li>Configure DNS Records in Webhostingpad:</li>
 </ol>
 <ul>
-<li><strong>Log in</strong>: to your Webhostingpad account and access the DNS management area for your domain. </li>
-</ul>
-<!-- raw HTML omitted -->
-<ul>
 <li>
-<p><strong>Add A records:</strong> You&rsquo;ll need to add four A records with the following GitHub Pages IP addresses: 185.199.108.153, 185.199.109.153, 185.199.110.153, and 185.199.111.153. </p>
+<p><strong>Log in</strong>: to your Webhostingpad account and access the DNS management area for your domain. </p>
 </li>
 <li>
-<p><strong>Record Type:</strong> Select &ldquo;A&rdquo; for each record.</p>
+<p><strong>Add A (IPv4) and AAAA (IPv6) records:</strong> You&rsquo;ll need to add four A records with the following GitHub Pages IP addresses: 185.199.108.153, 185.199.109.153, 185.199.110.153, and 185.199.111.153. Add four AAAA records as well.</p>
 </li>
 <li>
-<p><strong>Name:</strong> For the root domain (e.g., <code>yourdomain.com</code>), use <code>@</code> in the name field. It is also fine to leave it blank, particularly in those web-based configuration systems. </p>
+<p><strong>Record Type:</strong> Select &ldquo;A&rdquo; or &ldquo;AAAA&rdquo; for each record.</p>
 </li>
 <li>
-<p><strong>Value:</strong> Enter the corresponding GitHub Pages IP address for each record. </p>
+<p><strong>Name:</strong> For the root domain (e.g., <code>yourdomain.com</code>), use <code>@</code> in the name field. It is also fine to leave it blank, particularly in those web-based configuration systems where it adds the root domain automatically. </p>
+</li>
+<li>
+<p><strong>Value:</strong> Enter the corresponding GitHub Pages IP address like <code>185.199.108.153</code> and <code>2606:50c0:8000::153</code>for each record. </p>
 </li>
 <li>
 <p><strong>TTL (Time to Live):</strong> Set the TTL to a reasonable value (e.g., 1 hour or less). </p>
 </li>
 <li>
-<p>For sub-domain and www-domain, use CNAME record. For Name, it should be www or the sub-domain name.</p>
+<p>For sub-domain and www-domain, add CNAME record. For <strong>Name</strong>, it should be &ldquo;www&rdquo; or the sub-domain name like blog or map.</p>
 </li>
 </ul>
 <ol start="3">
@@ -362,7 +361,7 @@
 </ul>
 </li>
 <li>
-<p>Alternatively, use a website like whatsmydns.net to check the DNS propagation. </p>
+<p>Alternatively, use a website like <a href="whatsmydns.net">whatsmydns.net</a> to check the DNS propagation. </p>
 </li>
 </ul>
 <p>Important Notes:</p>
@@ -371,9 +370,6 @@
 <p>CNAME Record (for <code>www</code> subdomain):</p>
 <p>While A records are used for the root domain, it&rsquo;s recommended to also create a <a href="https://www.google.com/search?sca_esv=ff452058d59b7f49&amp;cs=1&amp;sxsrf=AE3TifMCyMHWKVd_nBqGCBpYoEr3-obO8Q%3A1752167021901&amp;q=CNAME+record&amp;sa=X&amp;ved=2ahUKEwjG6qvm4rKOAxUwGlkFHV9cNzoQxccNegQIbxAB&amp;mstk=AUtExfCuTunfptobGCXu3qrgf7pOATGV4ZU0Pq3ziaJnvAGIOCS2IrRzG4GRC8Y8aaje3fiYBn8HlreN0R4yRlgTnLcl67okvmjjeWkyVphbChxtA7UT7y9J0jJ6jqlOQYT4BeVjo2Y1L7TYZAOJDaErKieXXfein7_9fAtSmjC_fK7aRns&amp;csui=3">CNAME record</a> for the <code>www</code> subdomain, pointing it to your GitHub Pages site&rsquo;s default URL (e.g., <code>your-github-username.github.io</code>). </p>
 </li>
-</ul>
-<!-- raw HTML omitted -->
-<ul>
 <li>
 <p><a href="https://www.google.com/search?sca_esv=ff452058d59b7f49&amp;cs=1&amp;sxsrf=AE3TifMCyMHWKVd_nBqGCBpYoEr3-obO8Q%3A1752167021901&amp;q=ALIAS+records&amp;sa=X&amp;ved=2ahUKEwjG6qvm4rKOAxUwGlkFHV9cNzoQxccNegQIYxAB&amp;mstk=AUtExfCuTunfptobGCXu3qrgf7pOATGV4ZU0Pq3ziaJnvAGIOCS2IrRzG4GRC8Y8aaje3fiYBn8HlreN0R4yRlgTnLcl67okvmjjeWkyVphbChxtA7UT7y9J0jJ6jqlOQYT4BeVjo2Y1L7TYZAOJDaErKieXXfein7_9fAtSmjC_fK7aRns&amp;csui=3"><strong>ALIAS records</strong></a><strong>:</strong></p>
 <p>Some DNS providers offer ALIAS records, which can simplify the process. If available, you can use an ALIAS record instead of multiple A records for the root domain. </p>
