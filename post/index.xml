@@ -14,7 +14,7 @@
       <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
       <author>sunsp.gis@gmail.com (Shipeng Sun)</author>
       <guid>https://suncodeearth.github.io/blog/post/2025-07-10-use-your-own-domain-name-for-github-pages/</guid>
-      <description>To point your own domain name like from GoDaddy and Webhostingpad to a GitHub Pages site, we need to use the A records in DNS settings. Specifically, we need to configure the DNS settings with own domain registrar (GoDaddy, Webhostingpad, etc.) and update your GitHub Pages settings. We&amp;rsquo;ll need to create A records, i.e., Address Records, pointing to the GitHub Pages IP addresses and verify the custom domain in GitHub. Here&amp;rsquo;s a step-by-step breakdown:</description>
+      <description>To point your own domain name like one from GoDaddy, Spaceship, or Webhostingpad to a GitHub Pages site, you need to use the A records in DNS settings. Specifically, you need to configure the DNS settings with the domain registrar (GoDaddy, Webhostingpad, etc.) and update your GitHub Pages settings. You will need to create A records, i.e., Address Records, pointing to the GitHub Pages IP addresses and verify the custom domain in GitHub.</description>
     </item>
     
     <item>
